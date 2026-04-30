@@ -719,3 +719,42 @@ footer p {
     .image-wrapper { width: 280px; height: 280px; }
     .section-header h2 { font-size: 2rem; }
 }
+
+@media (max-width: 480px) {
+    /* Adjust text sizes */
+    .name { font-size: 2.2rem; }
+    .role { font-size: 1.4rem; }
+    .hero-desc { font-size: 1rem; }
+    .section-header h2 { font-size: 1.8rem; }
+    .greeting { font-size: 1.2rem; }
+    
+    /* Hero Adjustments */
+    .hero { padding-top: 110px; }
+    .image-wrapper { width: 220px; height: 220px; }
+    .hero-cta { flex-direction: column; width: 100%; gap: 15px; }
+    .hero-cta .btn { width: 100%; }
+    
+    /* Ensure grids don't overflow on tiny screens */
+    .projects-grid, 
+    .videos-grid, 
+    .music-grid, 
+    .expertise-grid, 
+    .services-grid, 
+    .socials-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Adjust padding for smaller cards */
+    section { padding: 60px 15px; }
+    .service-card, 
+    .project-card, 
+    .music-card, 
+    .social-card, 
+    .expertise-card, 
+    .video-card {
+        padding: 20px 15px;
+    }
+    
+    .contact-box { padding: 40px 20px; }
+    .pulse-btn { width: 100%; justify-content: center; }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SmartEMI App | Tarun Mankar</title>
+    <meta name="description" content="Official Privacy Policy for SmartEMI, an Android application for easy loan and EMI calculations.">
+    <link rel="stylesheet" href="../style.css">
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .policy-container {
+            max-width: 900px;
+            margin: 120px auto 60px;
+            padding: 40px;
+        }
+        .policy-content {
+            margin-top: 30px;
+        }
+        .policy-content h2, .policy-content h3 {
+            color: var(--primary-color);
+            margin: 30px 0 15px;
+        }
+        .policy-content h2 { font-size: 2rem; }
+        .policy-content h3 { font-size: 1.5rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 10px; }
+        
+        .policy-content p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+        .policy-content ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .policy-content li {
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--accent-color);
+            font-weight: 600;
+            margin-bottom: 20px;
+            transition: var(--transition);
+        }
+        .back-link:hover {
+            transform: translateX(-5px);
+        }
+        .last-updated {
+            font-style: italic;
+            color: var(--accent-color);
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+        .highlight-box {
+            background: rgba(99, 102, 241, 0.1);
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <header>
+        <nav class="glass-nav">
+            <a href="../index.html" class="logo">Tarun Mankar</a>
+            <ul class="nav-links">
+                <li><a href="index.html">SmartEMI Home</a></li>
+                <li><a href="../index.html#projects">All Projects</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="policy-container glass-panel">
+            <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to SmartEMI</a>
+            <h1>Privacy Policy for SmartEMI</h1>
+            <p class="last-updated">Last updated: May 05, 2026</p>
+
+            <div class="policy-content">
+                <p>SmartEMI ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose your information when you use our mobile application, SmartEMI.</p>
+
+                <div class="highlight-box">
+                    <p style="margin-bottom: 0; color: var(--text-primary);"><strong>Offline-First Commitment:</strong> SmartEMI is designed to work locally. Your data stays on your device.</p>
+                </div>
+
+                <h3>1. Data Collection</h3>
+                <p>SmartEMI is an offline-first application. We do <strong>NOT</strong> collect, store, or transmit any personal data, financial information, or loan records to any external servers. All data you enter into the app is stored locally on your own device.</p>
+
+                <h3>2. Permissions</h3>
+                <p>The app may require certain permissions to function correctly:</p>
+                <ul>
+                    <li><strong>Storage/Files:</strong> To save your loan and calculation history locally on your device.</li>
+                    <li><strong>Internet:</strong> Only used for internal updates and potential third-party ad serving (AdMob), but no personal user data is collected by us.</li>
+                </ul>
+
+                <h3>3. Third-Party Services</h3>
+                <p>We do not share any information with third parties. However, the app may use third-party services that may collect information used to identify you (e.g., Google Play Services, AdMob).</p>
+
+                <h3>4. Children's Privacy</h3>
+                <p>Our app is not intended for children under 13, and we do not knowingly collect any data from them.</p>
+
+                <h3>5. Changes to This Policy</h3>
+                <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page.</p>
+
+                <h3>6. Contact Us</h3>
+                <p>If you have any questions, please contact us at: <a href="mailto:tarunmankar@gmail.com" style="color: var(--primary-color); font-weight: 600;">tarunmankar@gmail.com</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tarun Mankar. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/tarunmankar" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

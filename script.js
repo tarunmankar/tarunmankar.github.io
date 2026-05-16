@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Fallback image handling
 const profileImg = document.getElementById('profile-img');
 profileImg.addEventListener('error', function() {
-    // If the image fails to load, use a placeholder or keep trying profile.jpg
+    // If the image fails to load, use a placeholder or keep trying profile.webp
     this.style.display = 'none'; // Better to hide or use a CSS placeholder
 });
 

@@ -77,8 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
 // Fallback image handling
 const profileImg = document.getElementById('profile-img');
 profileImg.addEventListener('error', function() {
-    // If the user hasn't named their photo 'profile.jpg', fallback to a generic avatar icon
-    this.src = 'avatar.png'; // It will try avatar.png first (the one we copied earlier)
+    // If the image fails to load, use a placeholder or keep trying profile.jpg
+    this.style.display = 'none'; // Better to hide or use a CSS placeholder
 });
 
 // Smooth scrolling for anchor links to prevent '#' in URL

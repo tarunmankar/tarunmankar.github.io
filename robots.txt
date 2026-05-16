@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Allow: /app-ads.txt
-Sitemap: https://tarunmankar.github.io/sitemap.xml
+Sitemap: https://tarun-mankar.web.app/sitemap.xml

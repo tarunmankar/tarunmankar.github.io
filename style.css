@@ -748,7 +748,8 @@ footer p {
     .music-grid, 
     .expertise-grid, 
     .services-grid, 
-    .socials-grid {
+    .socials-grid,
+    .books-grid {
         grid-template-columns: 1fr;
     }
     
@@ -759,10 +760,107 @@ footer p {
     .music-card, 
     .social-card, 
     .expertise-card, 
-    .video-card {
+    .video-card,
+    .book-card {
         padding: 20px 15px;
     }
     
     .contact-box { padding: 40px 20px; }
     .pulse-btn { width: 100%; justify-content: center; }
 }
+
+/* ===== Books & Audiobooks Section ===== */
+.subsection-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--text-primary);
+}
+
+.subsection-title i {
+    color: var(--accent-color);
+}
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.book-card {
+    display: block;
+    padding: 25px;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.book-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+    transform: translateX(-100%);
+    transition: 0.6s;
+}
+
+.book-card:hover::before {
+    transform: translateX(100%);
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
+}
+
+.book-icon {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    transition: var(--transition);
+}
+
+.book-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+.book-link {
+    color: var(--accent-color);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.book-link i {
+    transition: var(--transition);
+}
+
+.book-card:hover .book-link i {
+    transform: translateX(5px);
+}
+
+.book-card:hover .fa-amazon {
+    color: #FF9900; /* Amazon Yellow */
+    filter: drop-shadow(0 0 8px rgba(255, 153, 0, 0.5));
+}
+
+.book-card:hover .fa-book-open-reader {
+    color: var(--accent-color);
+    filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.5));
+}
+

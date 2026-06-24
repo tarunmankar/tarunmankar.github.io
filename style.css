@@ -485,6 +485,10 @@ section {
     border-color: #1DB954;
 }
 
+.music-card.apple-music:hover {
+    border-color: #FC3C44;
+}
+
 .music-card.elevenlabs:hover {
     border-color: var(--secondary-color);
 }
@@ -495,6 +499,10 @@ section {
 
 .spotify .music-logo {
     color: #1DB954;
+}
+
+.apple-music .music-logo {
+    color: #FC3C44;
 }
 
 .elevenlabs .music-logo {

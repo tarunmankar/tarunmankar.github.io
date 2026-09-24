@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TM Player - HD Offline Music & Audio Player | Tarun Mankar</title>
+    <meta name="description" content="Experience high-fidelity music playback with TM Player. Featuring a 10-band equalizer, bass boost, smart playlists, lyrics support, and pure offline privacy.">
+    <link rel="canonical" href="https://tarun-mankar.web.app/tmplayer/" />
+    <link rel="icon" type="image/webp" href="images/icon-512.webp">
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:title" content="TM Player - HD Offline Music & Audio Player">
+    <meta property="og:description" content="Immerse yourself in crystal-clear sound with TM Player. 10-band equalizer, 3D bass boost, lossless playback, and zero tracking.">
+    <meta property="og:image" content="https://tarun-mankar.web.app/tmplayer/images/logo.webp">
+    <meta property="og:url" content="https://tarun-mankar.web.app/tmplayer/">
+    <meta property="og:type" content="website">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "TM Player",
+      "operatingSystem": "Android 8.0+",
+      "applicationCategory": "MultimediaApplication",
+      "description": "TM Player is a powerful, offline HD music and audio player with a 10-band equalizer, 3D bass boost, lossless format playback, and sleek glassmorphism UI.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "180"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Tarun Mankar",
+        "url": "https://tarun-mankar.web.app/"
+      }
+    }
+    </script>
+
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Base Styles -->
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        /* Specific Styles for TM Player Landing Page */
+        .hero {
+            padding-top: 140px;
+            padding-bottom: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .hero-content {
+            flex: 1.1;
+            text-align: left;
+        }
+
+        .hero-visual {
+            flex: 0.9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .usp-tag {
+            background: linear-gradient(90deg, rgba(99, 102, 241, 0.25), rgba(236, 72, 153, 0.25));
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: #fff;
+            padding: 8px 18px;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2);
+        }
+
+        .hero-title {
+            font-size: 3.8rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, #ffffff 30%, #38bdf8 70%, #ec4899 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-subtitle {
+            font-size: 1.6rem;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .hero-desc {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-bottom: 35px;
+            line-height: 1.8;
+            max-width: 580px;
+        }
+
+        .hero-cta {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .play-store-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 14px;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+            color: #fff;
+            padding: 14px 32px;
+            border-radius: 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.35);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .play-store-btn:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(236, 72, 153, 0.45);
+            color: #fff;
+        }
+
+        .play-store-btn i {
+            font-size: 1.8rem;
+        }
+
+        .btn-outline {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            color: #fff;
+            padding: 14px 28px;
+            border-radius: 40px;
+            font-weight: 600;
+            transition: var(--transition);
+            backdrop-filter: blur(12px);
+        }
+
+        .btn-outline:hover {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: var(--accent-color);
+            transform: translateY(-3px);
+        }
+
+        /* Logo showcase with visualizer pulse */
+        .logo-showcase {
+            position: relative;
+            width: 340px;
+            height: 340px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-glow {
+            position: absolute;
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.4), rgba(236, 72, 153, 0.3) 50%, transparent 70%);
+            filter: blur(40px);
+            z-index: 0;
+            animation: pulseGlow 4s infinite alternate ease-in-out;
+        }
+
+        @keyframes pulseGlow {
+            0% { transform: scale(0.9); opacity: 0.6; }
+            100% { transform: scale(1.15); opacity: 1; }
+        }
+
+        .logo-image {
+            width: 300px;
+            height: 300px;
+            border-radius: 65px;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 40px rgba(99, 102, 241, 0.3);
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            transition: transform 0.4s ease;
+        }
+
+        .logo-image:hover {
+            transform: scale(1.04) rotate(1deg);
+        }
+
+        /* Soundwave animation bars */
+        .soundwave-container {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 25px;
+            justify-content: center;
+        }
+
+        .soundwave-bar {
+            width: 5px;
+            height: 35px;
+            background: linear-gradient(to top, var(--accent-color), var(--secondary-color));
+            border-radius: 3px;
+            animation: waveBounce 1.2s infinite ease-in-out alternate;
+        }
+
+        .soundwave-bar:nth-child(1) { animation-delay: 0.1s; height: 16px; }
+        .soundwave-bar:nth-child(2) { animation-delay: 0.3s; height: 32px; }
+        .soundwave-bar:nth-child(3) { animation-delay: 0.5s; height: 48px; }
+        .soundwave-bar:nth-child(4) { animation-delay: 0.2s; height: 26px; }
+        .soundwave-bar:nth-child(5) { animation-delay: 0.6s; height: 42px; }
+        .soundwave-bar:nth-child(6) { animation-delay: 0.4s; height: 20px; }
+        .soundwave-bar:nth-child(7) { animation-delay: 0.7s; height: 38px; }
+        .soundwave-bar:nth-child(8) { animation-delay: 0.3s; height: 18px; }
+
+        @keyframes waveBounce {
+            0% { transform: scaleY(0.3); opacity: 0.5; }
+            100% { transform: scaleY(1.2); opacity: 1; }
+        }
+
+        /* Section layout */
+        .section-container {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            padding: 35px 25px;
+            border-radius: 20px;
+            transition: var(--transition);
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(99, 102, 241, 0.4);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+        }
+
+        .feature-icon-wrapper {
+            width: 60px;
+            height: 60px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin-bottom: 22px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(236, 72, 153, 0.2));
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #38bdf8;
+        }
+
+        .feature-card h3 {
+            font-size: 1.35rem;
+            margin-bottom: 12px;
+            color: #fff;
+        }
+
+        .feature-card p {
+            color: var(--text-secondary);
+            font-size: 0.98rem;
+            line-height: 1.7;
+        }
+
+        /* Equalizer showcase banner */
+        .equalizer-showcase {
+            margin: 60px 0;
+            padding: 40px;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.7), rgba(30, 27, 75, 0.5));
+            border: 1px solid var(--glass-border);
+        }
+
+        .eq-content {
+            flex: 1;
+        }
+
+        .eq-visual {
+            flex: 1;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 12px;
+            height: 160px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 18px;
+            border: 1px solid var(--glass-border);
+        }
+
+        .eq-slider-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            height: 100%;
+            justify-content: flex-end;
+        }
+
+        .eq-bar {
+            width: 14px;
+            border-radius: 8px;
+            background: linear-gradient(to top, #6366f1, #06b6d4, #ec4899);
+            transition: height 0.3s ease;
+        }
+
+        .eq-label {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Format chips */
+        .format-badge-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .format-badge {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            padding: 8px 16px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #a5b4fc;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Specs table */
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .spec-item {
+            padding: 20px;
+            border-radius: 16px;
+            border: 1px solid var(--glass-border);
+            text-align: center;
+        }
+
+        .spec-item .value {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            margin-bottom: 6px;
+        }
+
+        .spec-item .label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            transition: var(--transition);
+            font-size: 0.95rem;
+        }
+
+        .footer-links a:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 992px) {
+            .hero {
+                flex-direction: column-reverse;
+                text-align: center;
+                padding-top: 120px;
+            }
+            .hero-content {
+                text-align: center;
+            }
+            .hero-desc {
+                margin: 0 auto 30px;
+            }
+            .hero-cta {
+                justify-content: center;
+            }
+            .equalizer-showcase {
+                flex-direction: column;
+                padding: 25px;
+            }
+            .hero-title {
+                font-size: 2.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animation Elements -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <!-- Header Navigation -->
+    <header id="header">
+        <nav class="glass-nav">
+            <a href="../index.html" class="logo">Tarun <span>Mankar</span></a>
+            <ul class="nav-links">
+                <li><a href="../index.html#projects">All Apps</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#equalizer">Equalizer</a></li>
+                <li><a href="#formats">Formats</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+            <a href="https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer" target="_blank" class="btn btn-nav">
+                <i class="fab fa-google-play"></i> Get App
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="usp-tag">
+                    <i class="fas fa-bolt" style="color: #f59e0b;"></i>
+                    <span>Offline HD Audio • 10-Band EQ • Zero Tracking</span>
+                </div>
+                <h1 class="hero-title">TM Player</h1>
+                <div class="hero-subtitle">Pure Sound. Pure Privacy. 🎧</div>
+                <p class="hero-desc">
+                    Elevate your audio experience with <strong>TM Player</strong>, the next-gen Android music player built for true audiophiles. Enjoy studio-grade equalization, explosive bass boost, seamless playlist curation, and crystal-clear offline playback—completely without accounts or intrusive tracking.
+                </p>
+                <div class="hero-cta">
+                    <a href="https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer" target="_blank" class="play-store-btn">
+                        <i class="fab fa-google-play"></i>
+                        <div style="text-align: left;">
+                            <div style="font-size: 0.75rem; font-weight: 400; text-transform: uppercase; letter-spacing: 0.5px;">Get it on</div>
+                            <div style="line-height: 1.1; font-weight: 700;">Google Play</div>
+                        </div>
+                    </a>
+                    <a href="privacy.html" class="btn-outline">
+                        <i class="fas fa-shield-alt"></i> Privacy Policy
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="logo-showcase">
+                    <div class="logo-glow"></div>
+                    <img src="images/logo.webp" alt="TM Player Official App Logo" class="logo-image" loading="eager" fetchpriority="high">
+                </div>
+            </div>
+        </section>
+
+        <!-- Soundwave visualizer bar -->
+        <div class="soundwave-container">
+            <div class="soundwave-bar"></div>
+            <div class="soundwave-bar"></div>
+            <div class="soundwave-bar"></div>
+            <div class="soundwave-bar"></div>
+            <div class="soundwave-bar"></div>
+            <div class="soundwave-bar"></div>
+            <div class="soundwave-bar"></div>
+            <div class="soundwave-bar"></div>
+        </div>
+
+        <!-- Features Section -->
+        <section id="features" class="section-container">
+            <div class="section-header">
+                <h2>Designed for True Audiophiles ⚡</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle" style="color: var(--text-secondary); max-width: 650px; margin: 15px auto 0;">
+                    Engineered with cutting-edge audio processing and a stunning dark-mode glassmorphic interface that puts your music center stage.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3>10-Band Pro Equalizer</h3>
+                    <p>Fine-tune every frequency from 31Hz to 16kHz. Comes loaded with genre presets including Rock, Pop, Jazz, Electronic, Classical, and custom audio profiles.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-wrapper" style="color: #ec4899;">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <h3>3D Bass Boost & Reverb</h3>
+                    <p>Feel the rhythm with dynamic bass amplification and multi-mode spatial virtualizer algorithms designed specifically for headphones and Bluetooth speakers.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-wrapper" style="color: #10b981;">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>100% Offline & Private</h3>
+                    <p>No mandatory logins, no data harvesting, and zero uploads. Your media files and listening history stay safely encrypted inside your phone.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-wrapper" style="color: #f59e0b;">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Lossless All-Format Engine</h3>
+                    <p>Flawless native playback for MP3, FLAC, WAV, AAC, M4A, OGG, and OPUS formats with gapless playback and crossfade transitions.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-wrapper" style="color: #8b5cf6;">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <h3>Smart Library & Folder View</h3>
+                    <p>Effortlessly organize and navigate your tracks by Artists, Albums, Genres, Folders, or custom-curated smart playlists.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-wrapper" style="color: #06b6d4;">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <h3>Sleep Timer & Driving Mode</h3>
+                    <p>Set a gentle sleep timer that fades music out peacefully as you drift to sleep, or toggle high-contrast large-touch driving controls.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Equalizer Highlight Section -->
+        <section id="equalizer" class="section-container">
+            <div class="equalizer-showcase glass-panel">
+                <div class="eq-content">
+                    <div class="usp-tag" style="margin-bottom: 12px;">
+                        <i class="fas fa-wave-square"></i> Hardware-Accelerated Audio
+                    </div>
+                    <h2 style="font-size: 2.2rem; margin-bottom: 14px; color: #fff;">Studio Sound in Your Pocket</h2>
+                    <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
+                        TM Player harnesses Android’s low-latency audio stack to deliver uncompressed clarity, dynamic range expansion, and instant EQ frequency shifts without audio stutter or battery drain.
+                    </p>
+                    <div class="format-badge-grid">
+                        <span class="format-badge"><i class="fas fa-check"></i> Bass Boost</span>
+                        <span class="format-badge"><i class="fas fa-check"></i> Treble Enhancer</span>
+                        <span class="format-badge"><i class="fas fa-check"></i> Reverb Room/Hall</span>
+                        <span class="format-badge"><i class="fas fa-check"></i> Volume Booster</span>
+                    </div>
+                </div>
+
+                <div class="eq-visual">
+                    <div class="eq-slider-col">
+                        <div class="eq-bar" style="height: 60px;"></div>
+                        <span class="eq-label">60Hz</span>
+                    </div>
+                    <div class="eq-slider-col">
+                        <div class="eq-bar" style="height: 95px;"></div>
+                        <span class="eq-label">150Hz</span>
+                    </div>
+                    <div class="eq-slider-col">
+                        <div class="eq-bar" style="height: 120px;"></div>
+                        <span class="eq-label">400Hz</span>
+                    </div>
+                    <div class="eq-slider-col">
+                        <div class="eq-bar" style="height: 80px;"></div>
+                        <span class="eq-label">1kHz</span>
+                    </div>
+                    <div class="eq-slider-col">
+                        <div class="eq-bar" style="height: 110px;"></div>
+                        <span class="eq-label">2.5kHz</span>
+                    </div>
+                    <div class="eq-slider-col">
+                        <div class="eq-bar" style="height: 130px;"></div>
+                        <span class="eq-label">6kHz</span>
+                    </div>
+                    <div class="eq-slider-col">
+                        <div class="eq-bar" style="height: 90px;"></div>
+                        <span class="eq-label">14kHz</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formats & Specifications -->
+        <section id="formats" class="section-container">
+            <div class="section-header">
+                <h2>Format Support & Tech Specs 🚀</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="specs-grid">
+                <div class="spec-item glass-panel">
+                    <div class="value">All Formats</div>
+                    <div class="label">MP3, FLAC, WAV, AAC, OGG</div>
+                </div>
+                <div class="spec-item glass-panel">
+                    <div class="value">Android 8.0+</div>
+                    <div class="label">Optimized for Android 14 & 15</div>
+                </div>
+                <div class="spec-item glass-panel">
+                    <div class="value">100% Offline</div>
+                    <div class="label">Zero Data Consumption</div>
+                </div>
+                <div class="spec-item glass-panel">
+                    <div class="value">Ultra Lightweight</div>
+                    <div class="label">Fast Startup & Low RAM Usage</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Download Section -->
+        <section class="section-container" style="text-align: center; margin-bottom: 80px;">
+            <div class="glass-panel" style="padding: 50px 30px; border-radius: 28px; background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(236, 72, 153, 0.1));">
+                <h2 style="font-size: 2.6rem; margin-bottom: 16px; color: #fff;">Ready to Feel the Bass? 🎶</h2>
+                <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 30px; font-size: 1.15rem;">
+                    Download TM Player today and rediscovery your music collection in breathtaking clarity.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 18px; flex-wrap: wrap;">
+                    <a href="https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer" target="_blank" class="play-store-btn">
+                        <i class="fab fa-google-play"></i>
+                        <div style="text-align: left;">
+                            <div style="font-size: 0.75rem; font-weight: 400; text-transform: uppercase;">Get it on</div>
+                            <div style="line-height: 1.1; font-weight: 700;">Google Play</div>
+                        </div>
+                    </a>
+                    <a href="privacy.html" class="btn-outline">
+                        <i class="fas fa-lock"></i> Read Privacy Policy
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="../index.html" class="logo">Tarun <span>Mankar</span></a>
+            <p style="color: var(--text-secondary); max-width: 650px; font-size: 0.95rem;">
+                TM Player is an independent media player developed with passion by Tarun Mankar. Dedicated to delivering premium audio experiences while respecting absolute user privacy.
+            </p>
+            <div class="footer-links">
+                <a href="../index.html">Portfolio Home</a>
+                <span>•</span>
+                <a href="../index.html#projects">Other Apps</a>
+                <span>•</span>
+                <a href="privacy.html">Privacy Policy</a>
+                <span>•</span>
+                <a href="mailto:mankar.tarun4@gmail.com">Developer Support</a>
+            </div>
+            <div class="social-links" style="margin-top: 15px;">
+                <a href="https://github.com/tarunmankar" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tarun-mankar/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/@tarun_mankar" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://play.google.com/store/apps/dev?id=5447961862962854741" target="_blank" aria-label="Google Play"><i class="fab fa-google-play"></i></a>
+            </div>
+            <p style="margin-top: 15px; font-size: 0.85rem; color: #64748b;">&copy; 2026 Tarun Mankar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -859,8 +859,73 @@ footer p {
     filter: drop-shadow(0 0 8px rgba(255, 153, 0, 0.5));
 }
 
-.book-card:hover .fa-book-open-reader {
+.book-card:hover .fa-book-open-reader,
+.book-card:hover .fa-headphones-simple {
     color: var(--accent-color);
     filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.5));
 }
+
+.book-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+/* Author Profile Highlight Banner */
+.author-profile-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 24px 30px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(236, 72, 153, 0.08));
+    border: 1px solid rgba(99, 102, 241, 0.25);
+    flex-wrap: wrap;
+}
+
+.author-banner-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.author-banner-icon {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+}
+
+.author-banner-text h4 {
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+
+.author-banner-text p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+/* Social Card Types */
+.linkedin-card:hover {
+    border-color: #0a66c2;
+    box-shadow: 0 0 20px rgba(10, 102, 194, 0.2);
+}
+.linkedin-card .social-logo {
+    color: #0a66c2;
+}
+
+.play-card:hover {
+    border-color: #01875f;
+    box-shadow: 0 0 20px rgba(1, 135, 95, 0.2);
+}
+.play-card .social-logo {
+    color: #01875f;
+}
+
 

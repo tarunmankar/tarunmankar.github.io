@@ -13,7 +13,8 @@ This file tracks all mobile applications integrated into the portfolio website.
 | **SmartEMI** | `/smartemi` | [Link](https://play.google.com/store/apps/details?id=com.smartemi.app) | Premium Loan & EMI calculator. | May 05, 2026 |
 | **ReturnX** | `/returnx` | [Link](https://play.google.com/store/apps/details?id=com.returnx.nivesh) | Smart Nivesh Calculator. | May 22, 2026 |
 | **TM Player** | `/tmplayer` | [Link](https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer) | HD Offline Music & Audio Player. | September 24, 2026 |
-| **Tarun Music App** | - | [Link](https://play.google.com/store/apps/details?id=com.tarunmusic.app) | Cinematic BGM & Soundtrack streaming app. | September 24, 2026 |
+| **Tarun Music App** | `/tarunmusic` | [Link](https://play.google.com/store/apps/details?id=com.tarunmusic.app) | Cinematic BGM & Soundtrack streaming app. | September 24, 2026 |
+| **Jokewala** | `/jokewala` | Pre-Release (`com.tarunmankar.jokewala`) | Funny Hindi jokes, desi chutkule & audio comedy app. | October 01, 2026 |
 
 ## Structure Template
 For every new app, follow this structure:

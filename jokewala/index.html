@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokewala: Hindi Jokes Chutkule - Funny Hindi Comedy & Audio Jokes App | Tarun Mankar</title>
+    <meta name="description" content="Jokewala: Thousands of hilarious Hindi jokes, desi chutkule, text-to-speech audio laughing feature, and 1-click WhatsApp sharing. 100% offline comedy app.">
+    <link rel="canonical" href="https://tarun-mankar.web.app/jokewala/" />
+    <link rel="icon" type="image/webp" href="images/icon-512.webp">
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:title" content="Jokewala: Hindi Jokes Chutkule - Funny Hindi Comedy App">
+    <meta property="og:description" content="Non-stop laughter with thousands of handpicked Hindi jokes, audio reading, 45+ categories, and 100% offline access.">
+    <meta property="og:image" content="https://tarun-mankar.web.app/jokewala/images/icon-512.webp">
+    <meta property="og:url" content="https://tarun-mankar.web.app/jokewala/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jokewala: Hindi Jokes Chutkule">
+    <meta name="twitter:description" content="Non-stop laughter with handpicked Hindi jokes, text-to-speech audio, and 45+ comedy categories.">
+    <meta name="twitter:image" content="https://tarun-mankar.web.app/jokewala/images/icon-512.webp">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Jokewala: Hindi Jokes Chutkule",
+      "operatingSystem": "Android",
+      "applicationCategory": "EntertainmentApplication",
+      "description": "Jokewala is a free offline Android app delivering thousands of Hindi jokes, desi chutkule, text-to-speech audio laughter, and 1-click WhatsApp sharing across 45+ categories.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Tarun Mankar",
+        "url": "https://tarun-mankar.web.app/"
+      }
+    }
+    </script>
+
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Base Styles -->
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        .hero {
+            padding-top: 140px;
+            padding-bottom: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-left: 20px;
+            padding-right: 20px;
+            min-height: auto;
+        }
+
+        .hero-content {
+            flex: 1.1;
+            text-align: left;
+        }
+
+        .hero-visual {
+            flex: 0.9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .usp-tag {
+            background: linear-gradient(90deg, rgba(245, 158, 11, 0.25), rgba(239, 68, 68, 0.25));
+            border: 1px solid rgba(245, 158, 11, 0.4);
+            color: #fbbf24;
+            padding: 8px 18px;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(245, 158, 11, 0.2);
+        }
+
+        .status-badge {
+            background: rgba(16, 185, 129, 0.15);
+            border: 1px solid rgba(16, 185, 129, 0.4);
+            color: #34d399;
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+
+        .hero-title {
+            font-size: 3.6rem;
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #ffffff, #fef3c7, #fde68a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 35px;
+        }
+
+        .btn-testing {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: #fff;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            box-shadow: 0 8px 25px rgba(245, 158, 11, 0.35);
+            transition: var(--transition);
+        }
+
+        .btn-testing:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(245, 158, 11, 0.5);
+            color: #fff;
+        }
+
+        .btn-privacy {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            color: #fff;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .btn-privacy:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #f59e0b;
+            transform: translateY(-3px);
+        }
+
+        .app-badge-strip {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .badge-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .badge-item i {
+            color: #fbbf24;
+        }
+
+        .app-icon-frame {
+            position: relative;
+            padding: 24px;
+            border-radius: 36px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .app-icon-large {
+            width: 220px;
+            height: 220px;
+            border-radius: 32px;
+            object-fit: cover;
+            display: block;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Feature Section */
+        .features-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            padding: 30px;
+            border-radius: 20px;
+            transition: var(--transition);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-6px);
+            border-color: #f59e0b;
+            box-shadow: 0 12px 30px rgba(245, 158, 11, 0.2);
+        }
+
+        .feature-icon-box {
+            width: 58px;
+            height: 58px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(239, 68, 68, 0.15));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            color: #fbbf24;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            color: #fff;
+        }
+
+        .feature-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* Categories Section */
+        .categories-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .category-chip {
+            padding: 20px;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            transition: var(--transition);
+        }
+
+        .category-chip:hover {
+            transform: translateY(-4px);
+            border-color: #fbbf24;
+        }
+
+        .cat-icon {
+            font-size: 1.8rem;
+            color: #f59e0b;
+        }
+
+        /* Info Card */
+        .info-card {
+            padding: 30px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.08), rgba(99, 102, 241, 0.05));
+            border: 1px solid rgba(245, 158, 11, 0.25);
+            margin: 40px auto;
+            max-width: 900px;
+        }
+
+        @media (max-width: 992px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                padding-top: 120px;
+            }
+            .hero-content {
+                text-align: center;
+            }
+            .hero-cta-group, .app-badge-strip {
+                justify-content: center;
+            }
+            .hero-title {
+                font-size: 2.8rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .hero-title {
+                font-size: 2.2rem;
+            }
+            .app-icon-large {
+                width: 160px;
+                height: 160px;
+            }
+            .btn-testing, .btn-privacy {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animation Elements -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <header>
+        <nav class="glass-nav">
+            <a href="../index.html" class="logo">Tarun Mankar</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="../index.html#apps">All Apps</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="usp-tag">
+                    <i class="fas fa-face-laugh-squint"></i> Daily Desi Comedy &amp; Audio Chutkule
+                    <span class="status-badge"><i class="fas fa-clock"></i> Pre-Launch Track</span>
+                </div>
+                <h1 class="hero-title">Jokewala<br><span style="font-size: 0.65em; color: #fbbf24; font-weight: 600;">Hindi Jokes &amp; Chutkule</span></h1>
+                <p class="hero-subtitle">
+                    Your ultimate pocket destination for non-stop laughter, viral chutkule, and witty desi comedy. Enjoy text-to-speech voice playback, 45+ trending categories, and 100% offline access.
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="privacy.html" class="btn-testing">
+                        <i class="fas fa-shield-halved"></i> Official Privacy Policy
+                    </a>
+                    <a href="../index.html#apps" class="btn-privacy">
+                        <i class="fas fa-arrow-left"></i> Explore Developer Portfolio
+                    </a>
+                </div>
+
+                <div class="app-badge-strip">
+                    <div class="badge-item">
+                        <i class="fas fa-volume-high"></i> Audio Voice Reader
+                    </div>
+                    <div class="badge-item">
+                        <i class="fas fa-wifi"></i> 100% Offline
+                    </div>
+                    <div class="badge-item">
+                        <i class="fab fa-whatsapp"></i> 1-Click WhatsApp Share
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="app-icon-frame glass-panel">
+                    <img src="images/icon-512.webp" alt="Jokewala App Icon" class="app-icon-large" loading="eager" decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="section-header" style="text-align: center; margin-bottom: 30px;">
+                <h2>Hilarious Features Built to Make You Smile</h2>
+                <div class="divider" style="margin: 15px auto;"></div>
+                <p class="section-subtitle">Lightweight, private, and designed for pure family-friendly entertainment.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-microphone-lines"></i>
+                    </div>
+                    <h3>Text-to-Speech Audio Jokes</h3>
+                    <p>Too lazy to read? Tap the "Listen" button and let the app read aloud the funniest Hindi jokes with high-quality device voice playback.</p>
+                </div>
+
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>1-Click WhatsApp Share</h3>
+                    <p>Instantly share your favorite chutkule directly to WhatsApp chats, WhatsApp Status, Instagram reels, and Facebook with one single tap.</p>
+                </div>
+
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <h3>Quick Copy to Clipboard</h3>
+                    <p>Easily copy any joke with formatting intact and paste it anywhere in seconds into your messaging groups.</p>
+                </div>
+
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-bolt-lightning"></i>
+                    </div>
+                    <h3>100% Offline (Zero Data)</h3>
+                    <p>No internet connection or Wi-Fi required! All thousands of jokes are stored directly on your phone using high-speed SQLite.</p>
+                </div>
+
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Save Your Favorites</h3>
+                    <p>Bookmark the jokes that made you laugh the hardest and revisit them anytime you need an instant mood booster.</p>
+                </div>
+
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-people-roof"></i>
+                    </div>
+                    <h3>Clean &amp; Family Friendly</h3>
+                    <p>Wholesome desi comedy carefully curated for sharing with family, relatives, college friends, and office colleagues.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories" class="categories-section">
+            <div class="section-header" style="text-align: center; margin-bottom: 30px;">
+                <h2>45+ Hilarious Comedy Categories</h2>
+                <div class="divider" style="margin: 15px auto;"></div>
+                <p class="section-subtitle">Every shade of Indian humor under one cheerful roof.</p>
+            </div>
+
+            <div class="categories-grid">
+                <div class="category-chip glass-panel">
+                    <i class="fas fa-masks-theater cat-icon"></i>
+                    <div>
+                        <strong style="color:#fff; display:block;">Santa Banta</strong>
+                        <span style="color:var(--text-secondary); font-size:0.85rem;">Evergreen classic comedy</span>
+                    </div>
+                </div>
+
+                <div class="category-chip glass-panel">
+                    <i class="fas fa-heart-crack cat-icon"></i>
+                    <div>
+                        <strong style="color:#fff; display:block;">Pati Patni (Couples)</strong>
+                        <span style="color:var(--text-secondary); font-size:0.85rem;">Relatable sweet roasts</span>
+                    </div>
+                </div>
+
+                <div class="category-chip glass-panel">
+                    <i class="fas fa-chalkboard-user cat-icon"></i>
+                    <div>
+                        <strong style="color:#fff; display:block;">Teacher &amp; Student</strong>
+                        <span style="color:var(--text-secondary); font-size:0.85rem;">School &amp; classroom masti</span>
+                    </div>
+                </div>
+
+                <div class="category-chip glass-panel">
+                    <i class="fas fa-briefcase cat-icon"></i>
+                    <div>
+                        <strong style="color:#fff; display:block;">Office &amp; Boss</strong>
+                        <span style="color:var(--text-secondary); font-size:0.85rem;">Corporate fun banter</span>
+                    </div>
+                </div>
+
+                <div class="category-chip glass-panel">
+                    <i class="fas fa-user-group cat-icon"></i>
+                    <div>
+                        <strong style="color:#fff; display:block;">Dosti &amp; College</strong>
+                        <span style="color:var(--text-secondary); font-size:0.85rem;">Friends group memories</span>
+                    </div>
+                </div>
+
+                <div class="category-chip glass-panel">
+                    <i class="fas fa-film cat-icon"></i>
+                    <div>
+                        <strong style="color:#fff; display:block;">Bollywood &amp; Memes</strong>
+                        <span style="color:var(--text-secondary); font-size:0.85rem;">Pop culture viral jokes</span>
+                    </div>
+                </div>
+
+                <div class="category-chip glass-panel">
+                    <i class="fas fa-fire cat-icon"></i>
+                    <div>
+                        <strong style="color:#fff; display:block;">Desi Roasts</strong>
+                        <span style="color:var(--text-secondary); font-size:0.85rem;">Witty savage comebacks</span>
+                    </div>
+                </div>
+
+                <div class="category-chip glass-panel">
+                    <i class="fas fa-comment-dots cat-icon"></i>
+                    <div>
+                        <strong style="color:#fff; display:block;">One-Liners</strong>
+                        <span style="color:var(--text-secondary); font-size:0.85rem;">Quick punchline giggles</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Play Store Publishing Info Box -->
+        <section style="max-width: 900px; margin: 40px auto 80px; padding: 0 20px;">
+            <div class="info-card glass-panel">
+                <div style="display:flex; align-items:center; gap: 15px; margin-bottom: 15px;">
+                    <i class="fab fa-google-play" style="font-size: 2rem; color: #01875f;"></i>
+                    <div>
+                        <h3 style="color:#fff; margin:0;">Play Store Package Information</h3>
+                        <span style="color: var(--text-secondary); font-size: 0.9rem;">com.tarunmankar.jokewala</span>
+                    </div>
+                </div>
+                <p style="color:var(--text-secondary); line-height: 1.7; margin-bottom: 20px;">
+                    This application is currently in closed testing / rollout preparation on the Google Play Console by developer <strong>Tarun Mankar</strong>. All app policies, data safety forms, and compliance guidelines are satisfied.
+                </p>
+                <div style="display:flex; gap:12px; flex-wrap:wrap;">
+                    <a href="privacy.html" class="btn-testing" style="padding: 10px 22px; font-size: 0.9rem;">
+                        <i class="fas fa-file-contract"></i> View Privacy Policy
+                    </a>
+                    <a href="privacy-policy.html" class="btn-privacy" style="padding: 10px 22px; font-size: 0.9rem;">
+                        <i class="fas fa-link"></i> Alternative Policy URL
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div style="text-align: center; padding: 40px 20px; color: var(--text-secondary); font-size: 0.9rem; border-top: 1px solid var(--glass-border);">
+            <p>&copy; 2026 Tarun Mankar. All Rights Reserved. • <a href="privacy.html" style="color: #fbbf24;">Privacy Policy</a> • <a href="../index.html" style="color: #fbbf24;">Portfolio</a></p>
+        </div>
+    </footer>
+</body>
+</html>

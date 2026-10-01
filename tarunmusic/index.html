@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun Music - Cinematic BGM & Soundtracks App | Tarun Mankar</title>
+    <meta name="description" content="Stream immersive cinematic background music, epic film scores, and ambient audio by composer Tarun Mankar. Perfect for filmmakers, video editors, and game creators.">
+    <link rel="canonical" href="https://tarun-mankar.web.app/tarunmusic/" />
+    <link rel="icon" type="image/webp" href="images/icon-512.webp">
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:title" content="Tarun Music - Cinematic BGM & Soundtracks App">
+    <meta property="og:description" content="Immerse yourself in epic cinematic film scores, hybrid electronic themes, and ambient soundscapes by composer Tarun Mankar. Available on Google Play.">
+    <meta property="og:image" content="https://tarun-mankar.web.app/tarunmusic/images/screenshot-1.webp">
+    <meta property="og:url" content="https://tarun-mankar.web.app/tarunmusic/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tarun Music - Cinematic BGM & Soundtracks App">
+    <meta name="twitter:description" content="Official streaming app for Tarun Music. Cinematic soundtracks & background music for creators.">
+    <meta name="twitter:image" content="https://tarun-mankar.web.app/tarunmusic/images/screenshot-1.webp">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Tarun Music: BGM Music",
+      "operatingSystem": "Android 7.0+",
+      "applicationCategory": "MusicApplication",
+      "description": "Tarun Music is an Android application offering an exclusive catalog of cinematic background music, epic film scores, ambient textures, and sound design composed by Tarun Mankar.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Tarun Mankar",
+        "url": "https://tarun-mankar.web.app/"
+      }
+    }
+    </script>
+
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Base Styles -->
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        .hero {
+            padding-top: 140px;
+            padding-bottom: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-left: 20px;
+            padding-right: 20px;
+            min-height: auto;
+        }
+
+        .hero-content {
+            flex: 1.1;
+            text-align: left;
+        }
+
+        .hero-visual {
+            flex: 0.9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .usp-tag {
+            background: linear-gradient(90deg, rgba(99, 102, 241, 0.25), rgba(236, 72, 153, 0.25));
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: #fff;
+            padding: 8px 18px;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2);
+        }
+
+        .hero-title {
+            font-size: 3.6rem;
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #ffffff, #e0e7ff, #c7d2fe);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 35px;
+        }
+
+        .btn-playstore {
+            background: linear-gradient(135deg, #01875f, #00b074);
+            color: #fff;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            box-shadow: 0 8px 25px rgba(1, 135, 95, 0.35);
+            transition: var(--transition);
+        }
+
+        .btn-playstore:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(1, 135, 95, 0.5);
+            color: #fff;
+        }
+
+        .btn-portal {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            color: #fff;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .btn-portal:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--primary-color);
+            transform: translateY(-3px);
+        }
+
+        .app-badge-strip {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .badge-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .badge-item i {
+            color: var(--accent-color);
+        }
+
+        .app-icon-frame {
+            position: relative;
+            padding: 24px;
+            border-radius: 36px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .app-icon-large {
+            width: 220px;
+            height: 220px;
+            border-radius: 32px;
+            object-fit: cover;
+            display: block;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Feature Section */
+        .features-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            padding: 30px;
+            border-radius: 20px;
+            transition: var(--transition);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-6px);
+            border-color: var(--primary-color);
+            box-shadow: 0 12px 30px rgba(99, 102, 241, 0.2);
+        }
+
+        .feature-icon-box {
+            width: 58px;
+            height: 58px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(236, 72, 153, 0.2));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            color: #fff;
+        }
+
+        .feature-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* Genres Section */
+        .genres-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .genres-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .genre-card {
+            padding: 24px;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            transition: var(--transition);
+        }
+
+        .genre-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-color);
+        }
+
+        .genre-icon {
+            font-size: 2rem;
+            color: var(--secondary-color);
+        }
+
+        /* Screenshots Section */
+        .screenshots-section {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+
+        .screenshots-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .shot-card {
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            transition: var(--transition);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .shot-card:hover {
+            transform: translateY(-6px);
+            border-color: var(--primary-color);
+            box-shadow: 0 15px 35px rgba(99, 102, 241, 0.25);
+        }
+
+        .shot-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            max-width: 900px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+
+        .faq-card {
+            padding: 26px;
+            border-radius: 16px;
+            margin-bottom: 18px;
+        }
+
+        .faq-card h4 {
+            font-size: 1.15rem;
+            margin-bottom: 10px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .faq-card h4 i {
+            color: var(--accent-color);
+        }
+
+        .faq-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 992px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                padding-top: 120px;
+            }
+            .hero-content {
+                text-align: center;
+            }
+            .hero-cta-group, .app-badge-strip {
+                justify-content: center;
+            }
+            .hero-title {
+                font-size: 2.8rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .hero-title {
+                font-size: 2.2rem;
+            }
+            .app-icon-large {
+                width: 160px;
+                height: 160px;
+            }
+            .btn-playstore, .btn-portal {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animation Elements -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <header>
+        <nav class="glass-nav">
+            <a href="../index.html" class="logo">Tarun Mankar</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#genres">Soundtracks</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="../index.html#apps">All Apps</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="usp-tag">
+                    <i class="fas fa-compact-disc"></i> Official Mobile Soundtrack App
+                </div>
+                <h1 class="hero-title">Tarun Music<br><span style="font-size: 0.65em; color: var(--accent-color); font-weight: 600;">Cinematic BGM &amp; Soundtracks</span></h1>
+                <p class="hero-subtitle">
+                    Your pocket destination for high-impact cinematic film scores, atmospheric background music, and original orchestral compositions produced by Tarun Mankar.
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="https://play.google.com/store/apps/details?id=com.tarunmusic.app" target="_blank" class="btn-playstore">
+                        <i class="fab fa-google-play"></i> Get on Play Store
+                    </a>
+                    <a href="https://tarunmusic.co.in/" target="_blank" class="btn-portal">
+                        <i class="fas fa-globe"></i> Visit Web Portal
+                    </a>
+                </div>
+
+                <div class="app-badge-strip">
+                    <div class="badge-item">
+                        <i class="fas fa-music"></i> Original Compositions
+                    </div>
+                    <div class="badge-item">
+                        <i class="fas fa-bolt"></i> Instant Previews
+                    </div>
+                    <div class="badge-item">
+                        <i class="fas fa-film"></i> Creator-Ready
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="app-icon-frame glass-panel">
+                    <img src="images/icon-512.webp" alt="Tarun Music App Icon" class="app-icon-large" loading="eager" decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="section-header" style="text-align: center; margin-bottom: 30px;">
+                <h2>Crafted for Cinematic Audio Experiences</h2>
+                <div class="divider" style="margin: 15px auto;"></div>
+                <p class="section-subtitle">Every theme is composed to elevate visual storytelling and deliver goosebump moments.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-drum"></i>
+                    </div>
+                    <h3>Epic Cinematic Scores</h3>
+                    <p>Heavy brass, thunderous percussion, soaring orchestral strings, and dramatic themes designed for intense action, historical, and trailers.</p>
+                </div>
+
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-cloud-moon"></i>
+                    </div>
+                    <h3>Atmospheric Soundscapes</h3>
+                    <p>Ethereal ambient pads, melancholic piano motifs, and subtle emotional textures built for documentaries, drama, and narrative depth.</p>
+                </div>
+
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-sliders"></i>
+                    </div>
+                    <h3>Modern Hybrid Sound</h3>
+                    <p>Fusing classical live symphonic instrumentation with punchy electronic synths, 808 subs, and cutting-edge sound design.</p>
+                </div>
+
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <h3>Instant Audio Streaming</h3>
+                    <p>Stream pristine, high-fidelity audio previews with minimal latency and smooth background playback right from your Android device.</p>
+                </div>
+
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Built for Creators</h3>
+                    <p>Curated specifically for video editors, YouTube creators, indie game developers, short filmmakers, and reel makers.</p>
+                </div>
+
+                <div class="feature-card glass-panel">
+                    <div class="feature-icon-box">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3>Clean &amp; Lightweight</h3>
+                    <p>No intrusive data tracking, no unnecessary permission demands, and optimized battery efficiency while listening.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Genres Section -->
+        <section id="genres" class="genres-section">
+            <div class="section-header" style="text-align: center; margin-bottom: 30px;">
+                <h2>Explore Catalog Genres</h2>
+                <div class="divider" style="margin: 15px auto;"></div>
+                <p class="section-subtitle">Diverse moods and genres tailored for every cinematic narrative.</p>
+            </div>
+
+            <div class="genres-grid">
+                <div class="genre-card glass-panel">
+                    <i class="fas fa-mask genre-icon"></i>
+                    <div>
+                        <h4 style="color:#fff; font-size:1.1rem; margin-bottom:4px;">Cinematic &amp; Suspense</h4>
+                        <p style="color:var(--text-secondary); font-size:0.88rem; margin:0;">Mystery, thrillers, tension cues</p>
+                    </div>
+                </div>
+
+                <div class="genre-card glass-panel">
+                    <div class="genre-icon"><i class="fas fa-mountain"></i></div>
+                    <div>
+                        <h4 style="color:#fff; font-size:1.1rem; margin-bottom:4px;">Action &amp; Adventure</h4>
+                        <p style="color:var(--text-secondary); font-size:0.88rem; margin:0;">High BPM, battle beats, epic peaks</p>
+                    </div>
+                </div>
+
+                <div class="genre-card glass-panel">
+                    <div class="genre-icon"><i class="fas fa-feather-pointed"></i></div>
+                    <div>
+                        <h4 style="color:#fff; font-size:1.1rem; margin-bottom:4px;">Ambient &amp; Documentary</h4>
+                        <p style="color:var(--text-secondary); font-size:0.88rem; margin:0;">Reflective, gentle, serene focus</p>
+                    </div>
+                </div>
+
+                <div class="genre-card glass-panel">
+                    <div class="genre-icon"><i class="fas fa-wave-square"></i></div>
+                    <div>
+                        <h4 style="color:#fff; font-size:1.1rem; margin-bottom:4px;">Modern Fusion &amp; Electronic</h4>
+                        <p style="color:var(--text-secondary); font-size:0.88rem; margin:0;">Cyberpunk, synthwave, hybrid bass</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section id="screenshots" class="screenshots-section">
+            <div class="section-header" style="text-align: center; margin-bottom: 30px;">
+                <h2>App Screenshots</h2>
+                <div class="divider" style="margin: 15px auto;"></div>
+                <p class="section-subtitle">Sneak peek inside the dark glassmorphic Android app experience.</p>
+            </div>
+
+            <div class="screenshots-grid">
+                <div class="shot-card">
+                    <img src="images/screenshot-1.webp" alt="Tarun Music Screen 1" loading="lazy" decoding="async">
+                </div>
+                <div class="shot-card">
+                    <img src="images/screenshot-2.webp" alt="Tarun Music Screen 2" loading="lazy" decoding="async">
+                </div>
+                <div class="shot-card">
+                    <img src="images/screenshot-3.webp" alt="Tarun Music Screen 3" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="section-header" style="text-align: center; margin-bottom: 30px;">
+                <h2>Frequently Asked Questions</h2>
+                <div class="divider" style="margin: 15px auto;"></div>
+            </div>
+
+            <div class="faq-card glass-panel">
+                <h4><i class="fas fa-circle-question"></i> Is the app free to install?</h4>
+                <p>Yes, Tarun Music is free to download and install on Android via Google Play. You can preview all tracks instantly.</p>
+            </div>
+
+            <div class="faq-card glass-panel">
+                <h4><i class="fas fa-circle-question"></i> Can I use these tracks in my YouTube videos or short films?</h4>
+                <p>Yes! Tarun Music is created specifically for creators. For licensing details, custom scoring, or commercial sync rights, visit <a href="https://tarunmusic.co.in/" target="_blank" style="color:var(--accent-color); text-decoration: underline;">tarunmusic.co.in</a>.</p>
+            </div>
+
+            <div class="faq-card glass-panel">
+                <h4><i class="fas fa-circle-question"></i> Does the app collect personal user data?</h4>
+                <p>No. Tarun Music respects your privacy and requires no personal account or login. Review our full <a href="privacy.html" style="color:var(--accent-color); text-decoration: underline;">Privacy Policy</a> for complete details.</p>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section style="max-width: 1000px; margin: 60px auto 100px; padding: 0 20px;">
+            <div class="glass-panel" style="text-align: center; padding: 50px 30px; border-radius: 28px; background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(6, 182, 212, 0.1)); border: 1px solid rgba(99, 102, 241, 0.3);">
+                <h2 style="font-size: 2.4rem; margin-bottom: 16px; color:#fff;">Experience Cinematic Sound in Your Hands</h2>
+                <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 30px; font-size: 1.05rem;">
+                    Download the official Tarun Music mobile app on Google Play and explore original film scores anywhere, anytime.
+                </p>
+                <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                    <a href="https://play.google.com/store/apps/details?id=com.tarunmusic.app" target="_blank" class="btn-playstore">
+                        <i class="fab fa-google-play"></i> Download on Google Play
+                    </a>
+                    <a href="../index.html#apps" class="btn-portal">
+                        <i class="fas fa-arrow-left"></i> Explore More Apps
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div style="text-align: center; padding: 40px 20px; color: var(--text-secondary); font-size: 0.9rem; border-top: 1px solid var(--glass-border);">
+            <p>&copy; 2026 Tarun Mankar. All Rights Reserved. • <a href="privacy.html" style="color: var(--accent-color);">Privacy Policy</a> • <a href="../index.html" style="color: var(--accent-color);">Portfolio</a></p>
+        </div>
+    </footer>
+</body>
+</html>

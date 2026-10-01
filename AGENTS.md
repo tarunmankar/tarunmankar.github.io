@@ -19,3 +19,10 @@ This document defines the rules and behavioral guidelines for AI Agents working 
 - Be concise.
 - Use a mix of English and Hindi (Hinglish) when interacting with the user if they prefer.
 - Proactively suggest optimizations (performance, SEO, UI).
+
+## Auto-Sync Sources (Direct Update Rule)
+When the user asks to check or update new apps or books without providing URLs, **always directly check**:
+- **Google Play Developer**: `https://play.google.com/store/apps/dev?id=5447961862962854741`
+- **ElevenReader Author Profile**: `https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un`
+- Track apps in `apps_inventory.md` and books in `books_inventory.md`.
+

@@ -37,7 +37,7 @@ window.addEventListener('scroll', () => {
 });
 
 // Typewriter Effect
-const roles = ['Developer.', 'Engineer.', 'Innovator.', 'Creator.'];
+const roles = ['Content Developer.', 'App Builder.', 'Web Designer.', 'Music Creator.', 'AI Enthusiast.'];
 let roleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;

@@ -15,6 +15,7 @@ This file tracks all mobile applications integrated into the portfolio website.
 | **TM Player** | `/tmplayer` | [Link](https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer) | HD Offline Music & Audio Player. | September 24, 2026 |
 | **Tarun Music App** | `/tarunmusic` | [Link](https://play.google.com/store/apps/details?id=com.tarunmusic.app) | Cinematic BGM & Soundtrack streaming app. | September 24, 2026 |
 | **Jokewala** | `/jokewala` | Pre-Release (`com.tarunmankar.jokewala`) | Funny Hindi jokes, desi chutkule & audio comedy app. | October 01, 2026 |
+| **CleanSweep** | `/cleansweep` | Pre-Release (`com.tarunmankar.cleansweep`) | High-speed phone storage & junk cleaner with 100% on-device privacy. | October 03, 2026 |
 
 ## Structure Template
 For every new app, follow this structure:

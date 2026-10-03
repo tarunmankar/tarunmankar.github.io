@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleanSweep: Storage Cleaner — High-Speed Android Phone Cleaner | Tarun Mankar</title>
+    <meta name="description" content="CleanSweep is a high-speed, privacy-first Android storage manager by Tarun Mankar. Clean junk files, empty folders & cache instantly using native Android StatFs.">
+    <link rel="canonical" href="https://tarun-mankar.web.app/cleansweep/" />
+    <link rel="icon" type="image/webp" href="images/icon-512.webp">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tarun-mankar.web.app/cleansweep/">
+    <meta property="og:title" content="CleanSweep: Storage Cleaner — High-Speed Android Phone Cleaner">
+    <meta property="og:description" content="Clean junk files, empty folders & cache instantly using native Android StatFs. 100% on-device privacy, zero cloud uploads.">
+    <meta property="og:image" content="https://tarun-mankar.web.app/cleansweep/images/icon-512.webp">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CleanSweep: Storage Cleaner — High-Speed Android Phone Cleaner">
+    <meta name="twitter:description" content="Clean junk files, empty folders & cache instantly using native Android StatFs. 100% on-device privacy.">
+    <meta name="twitter:image" content="https://tarun-mankar.web.app/cleansweep/images/icon-512.webp">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "CleanSweep: Storage Cleaner",
+      "operatingSystem": "Android",
+      "applicationCategory": "UtilitiesApplication",
+      "description": "Clean junk files, empty folders & cache instantly using native Android StatFs with 100% on-device privacy.",
+      "author": {
+        "@type": "Person",
+        "name": "Tarun Mankar"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <!-- Google Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Base Styles -->
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        :root {
+            --cs-cyan: #00f2fe;
+            --cs-blue: #4facfe;
+            --cs-glow: rgba(0, 242, 254, 0.28);
+            --cs-card-bg: rgba(14, 18, 28, 0.7);
+        }
+
+        .cs-hero {
+            padding-top: 140px;
+            padding-bottom: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+
+        .cs-hero-content {
+            flex: 1.15;
+        }
+
+        .cs-hero-visual {
+            flex: 0.85;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .cs-badge {
+            background: linear-gradient(90deg, rgba(0, 242, 254, 0.16), rgba(79, 172, 254, 0.16));
+            border: 1px solid rgba(0, 242, 254, 0.35);
+            color: var(--cs-cyan);
+            padding: 8px 18px;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 22px;
+            box-shadow: 0 4px 20px var(--cs-glow);
+        }
+
+        .cs-hero-title {
+            font-size: 3.6rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, #ffffff 40%, var(--cs-cyan) 80%, var(--cs-blue) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .cs-hero-subtitle {
+            font-size: 1.45rem;
+            color: #7dd3fc;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .cs-hero-desc {
+            font-size: 1.12rem;
+            color: var(--text-secondary);
+            margin-bottom: 35px;
+            line-height: 1.8;
+            max-width: 580px;
+        }
+
+        .cs-hero-cta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .cs-primary-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            color: #fff;
+            padding: 14px 28px;
+            border-radius: 40px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(0, 198, 255, 0.35);
+        }
+
+        .cs-primary-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(0, 198, 255, 0.55);
+            color: #ffffff;
+        }
+
+        .cs-secondary-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 242, 254, 0.3);
+            color: var(--cs-cyan);
+            padding: 14px 26px;
+            border-radius: 40px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .cs-secondary-btn:hover {
+            background: rgba(0, 242, 254, 0.12);
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        .cs-app-icon-card {
+            width: 280px;
+            height: 280px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cs-main-icon {
+            width: 210px;
+            height: 210px;
+            border-radius: 46px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 50px var(--cs-glow);
+            border: 2px solid rgba(0, 242, 254, 0.4);
+            position: relative;
+            z-index: 2;
+        }
+
+        .floating-stat {
+            position: absolute;
+            background: rgba(10, 15, 25, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 242, 254, 0.35);
+            border-radius: 16px;
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #ffffff;
+            font-size: 0.88rem;
+            font-weight: 600;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            z-index: 3;
+            animation: floatSlow 4s ease-in-out infinite alternate;
+        }
+
+        .floating-stat.stat-1 {
+            top: 10px;
+            right: -20px;
+            animation-delay: 0.5s;
+        }
+
+        .floating-stat.stat-2 {
+            bottom: 20px;
+            left: -20px;
+            animation-delay: 1.5s;
+        }
+
+        @keyframes floatSlow {
+            from { transform: translateY(0px); }
+            to { transform: translateY(-8px); }
+        }
+
+        /* Features Section */
+        .cs-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        .cs-section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .cs-section-header h2 {
+            font-size: 2.4rem;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .cs-section-header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .cs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 28px;
+        }
+
+        .cs-card {
+            background: var(--cs-card-bg);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 32px 28px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cs-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--cs-cyan), transparent);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .cs-card:hover {
+            transform: translateY(-6px);
+            border-color: rgba(0, 242, 254, 0.35);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 25px var(--cs-glow);
+        }
+
+        .cs-card:hover::before {
+            opacity: 1;
+        }
+
+        .cs-card-icon {
+            width: 58px;
+            height: 58px;
+            border-radius: 16px;
+            background: rgba(0, 242, 254, 0.1);
+            border: 1px solid rgba(0, 242, 254, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            color: var(--cs-cyan);
+            margin-bottom: 22px;
+        }
+
+        .cs-card h3 {
+            font-size: 1.35rem;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .cs-card p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        /* Tech Specs Banner */
+        .cs-specs-panel {
+            background: linear-gradient(135deg, rgba(0, 242, 254, 0.06), rgba(79, 172, 254, 0.02));
+            border: 1px solid rgba(0, 242, 254, 0.22);
+            border-radius: 24px;
+            padding: 40px;
+            margin-top: 20px;
+        }
+
+        .specs-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+            margin-top: 28px;
+        }
+
+        .spec-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .spec-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--cs-cyan);
+            margin-bottom: 6px;
+        }
+
+        .spec-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .cs-hero {
+                flex-direction: column;
+                text-align: center;
+                padding-top: 110px;
+            }
+            .cs-hero-content {
+                text-align: center;
+            }
+            .cs-hero-desc {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .cs-hero-cta {
+                justify-content: center;
+            }
+            .cs-hero-title {
+                font-size: 2.8rem;
+            }
+            .floating-stat.stat-1 {
+                right: 0px;
+            }
+            .floating-stat.stat-2 {
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animation Elements -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <header>
+        <nav class="glass-nav">
+            <a href="../index.html" class="logo">Tarun Mankar</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#apps">Apps</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#specs">Specifications</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="cs-hero">
+            <div class="cs-hero-content">
+                <div class="cs-badge">
+                    <i class="fas fa-shield-virus"></i> 100% On-Device &bull; Zero Cloud Uploads
+                </div>
+                <h1 class="cs-hero-title">CleanSweep</h1>
+                <div class="cs-hero-subtitle">High-Speed Phone Storage &amp; Junk Cleaner</div>
+                <p class="cs-hero-desc">
+                    Is your phone running out of storage space? CleanSweep instantly identifies and cleans temporary cache, zero-byte empty files, leftover residual folders, and duplicate files using native Android StatFs without ever sending your personal files to remote servers.
+                </p>
+                <div class="cs-hero-cta">
+                    <a href="https://play.google.com/store/apps/dev?id=5447961862962854741" target="_blank" class="cs-primary-btn">
+                        <i class="fab fa-google-play"></i> Get on Google Play (Coming Soon)
+                    </a>
+                    <a href="privacy.html" class="cs-secondary-btn">
+                        <i class="fas fa-shield-alt"></i> View Privacy Policy
+                    </a>
+                </div>
+            </div>
+
+            <div class="cs-hero-visual">
+                <div class="cs-app-icon-card">
+                    <img src="images/icon-512.webp" alt="CleanSweep App Icon" class="cs-main-icon">
+                    <div class="floating-stat stat-1">
+                        <i class="fas fa-tachometer-alt" style="color: var(--cs-cyan);"></i>
+                        <span>Cold Start &lt; 0.2s</span>
+                    </div>
+                    <div class="floating-stat stat-2">
+                        <i class="fas fa-lock" style="color: #4ade80;"></i>
+                        <span>100% Offline-First</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Grid -->
+        <section id="features" class="cs-section">
+            <div class="cs-section-header">
+                <h2>Why Choose CleanSweep?</h2>
+                <div class="divider"></div>
+                <p>Engineered for maximum speed, minimal battery consumption, and uncompromising personal privacy.</p>
+            </div>
+
+            <div class="cs-grid">
+                <div class="cs-card">
+                    <div class="cs-card-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3>100% Private &amp; On-Device</h3>
+                    <p>Functions completely offline without internet or cellular data. Zero logins, zero tracking, and zero cloud uploads. Your photos and private files never leave your device.</p>
+                </div>
+
+                <div class="cs-card">
+                    <div class="cs-card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Native Android StatFs Engine</h3>
+                    <p>Powered by sub-millisecond partition analysis. Scans media cache, locates zero-byte ghost files, and detects residual empty directories with 0% ANR rate.</p>
+                </div>
+
+                <div class="cs-card">
+                    <div class="cs-card-icon">
+                        <i class="fas fa-clone"></i>
+                    </div>
+                    <h3>Smart Duplicate Finder</h3>
+                    <p>Reclaim wasted gigabytes by pinpointing duplicate images, audio, and video files across multiple folders without touching your originals.</p>
+                </div>
+
+                <div class="cs-card">
+                    <div class="cs-card-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>True AMOLED Dark Theme</h3>
+                    <p>Pure OLED dark mode (<code>#0A0A0F</code>) optimized for battery conservation, paired with fluid 60/120fps micro-animations and crisp category filter tabs.</p>
+                </div>
+
+                <div class="cs-card">
+                    <div class="cs-card-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>App Footprint Analyzer</h3>
+                    <p>Queries installed application cache footprints via Android's native <code>StorageStatsManager</code> so you know exactly which apps are consuming your storage.</p>
+                </div>
+
+                <div class="cs-card">
+                    <div class="cs-card-icon">
+                        <i class="fas fa-feather-alt"></i>
+                    </div>
+                    <h3>Ultra Lightweight &amp; Fast</h3>
+                    <p>Super lightweight install footprint (&lt; 15MB) with instant cold startup (&lt; 0.2s) and full haptic feedback on every user interaction.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specifications & Architecture -->
+        <section id="specs" class="cs-section">
+            <div class="cs-specs-panel glass-panel">
+                <div class="cs-section-header" style="margin-bottom: 20px;">
+                    <h2>Technical Specifications</h2>
+                    <p>Modern Android Architecture &amp; Developer Program Compliance (2026)</p>
+                </div>
+
+                <div class="specs-row">
+                    <div class="spec-item">
+                        <div class="spec-value">API 35</div>
+                        <div class="spec-label">Target SDK (Android 15)</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-value">&lt; 15 MB</div>
+                        <div class="spec-label">Ultra-Compact Size</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-value">0% ANR</div>
+                        <div class="spec-label">Native Kotlin Engine</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-value">0 Trackers</div>
+                        <div class="spec-label">Ads Disabled / No SDKs</div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 36px; text-align: center;">
+                    <a href="privacy.html" class="cs-secondary-btn">
+                        <i class="fas fa-file-contract"></i> Read Google Play 2026 Compliant Privacy Policy
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div style="text-align: center; padding: 40px 20px; color: var(--text-secondary); font-size: 0.9rem;">
+            <p>&copy; 2026 Tarun Mankar (TM Series). All Rights Reserved. • <a href="../index.html" style="color: var(--cs-cyan);">Tarun Mankar Portfolio</a> • <a href="privacy.html" style="color: var(--cs-cyan);">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -14,7 +14,7 @@ This file tracks all mobile applications integrated into the portfolio website.
 | **ReturnX** | `/returnx` | [Link](https://play.google.com/store/apps/details?id=com.returnx.nivesh) | Smart Nivesh Calculator. | May 22, 2026 |
 | **TM Player** | `/tmplayer` | [Link](https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer) | HD Offline Music & Audio Player. | September 24, 2026 |
 | **Tarun Music App** | `/tarunmusic` | [Link](https://play.google.com/store/apps/details?id=com.tarunmusic.app) | Cinematic BGM & Soundtrack streaming app. | September 24, 2026 |
-| **Jokewala** | `/jokewala` | Pre-Release (`com.tarunmankar.jokewala`) | Funny Hindi jokes, desi chutkule & audio comedy app. | October 01, 2026 |
+| **Jokewala** | `/jokewala` | [Link](https://play.google.com/store/apps/details?id=com.jokewala.app) | Funny Hindi jokes, desi chutkule & audio comedy app. (`com.jokewala.app`) | October 04, 2026 |
 | **CleanSweep** | `/cleansweep` | Pre-Release (`com.tarunmankar.cleansweep`) | High-speed phone storage & junk cleaner with 100% on-device privacy. | October 03, 2026 |
 
 ## Structure Template
@@ -22,6 +22,11 @@ For every new app, follow this structure:
 - `/[app-slug]/index.html`: Landing page (use SplitBhai/SmartEMI/TMPlayer as template).
 - `/[app-slug]/privacy.html`: Privacy policy.
 - `/[app-slug]/images/`: Banner images (usually 4 for slider).
+
+## All-in-One Download Hub (Instagram Bio)
+- **Hub URL**: `/apps/` (`https://tarun-mankar.web.app/apps/`)
+- **Alias / Redirect**: `/download/` (`https://tarun-mankar.web.app/download/`)
+- **Purpose**: Instagram bio & social traffic landing page designed for maximum Play Store downloads with 1-tap install buttons, category filters, and Jokewala spotlight.
 
 ## To-Do / Planned Apps
 - [ ] Next app...

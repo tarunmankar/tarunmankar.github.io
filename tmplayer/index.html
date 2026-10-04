@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TM Player - HD Offline Music & Audio Player | Tarun Mankar</title>
+    <title>TM Player - HD Offline Music & Audio Player | Download for Android</title>
     <meta name="description" content="Experience high-fidelity music playback with TM Player. Featuring a 10-band equalizer, bass boost, smart playlists, lyrics support, and pure offline privacy.">
     <link rel="canonical" href="https://tarun-mankar.web.app/tmplayer/" />
     <link rel="icon" type="image/webp" href="images/icon-512.webp">
@@ -452,6 +452,88 @@
                 font-size: 2.8rem;
             }
         }
+
+        /* Mobile Sticky Install Bar */
+        .mobile-sticky-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 12px 18px;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(16px);
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            z-index: 9999;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.6);
+        }
+        @media (max-width: 768px) {
+            .mobile-sticky-bar {
+                display: flex;
+            }
+            body {
+                padding-bottom: 75px;
+            }
+        }
+        .sticky-app-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .sticky-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 11px;
+            object-fit: cover;
+        }
+        .sticky-text {
+            display: flex;
+            flex-direction: column;
+        }
+        .sticky-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.2;
+        }
+        .sticky-subtitle {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        .sticky-btn {
+            background: linear-gradient(135deg, #6366f1, #ec4899);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 0.92rem;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+        }
+
+        .desktop-qr-card {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(15, 23, 42, 0.7);
+            border: 1px solid var(--glass-border);
+            border-radius: 18px;
+            padding: 16px 20px;
+            margin-top: 25px;
+            width: fit-content;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        @media (min-width: 992px) {
+            .desktop-qr-card {
+                display: flex;
+            }
+        }
     </style>
 </head>
 <body>
@@ -463,16 +545,18 @@
     <!-- Header Navigation -->
     <header id="header">
         <nav class="glass-nav">
-            <a href="../index.html" class="logo">Tarun <span>Mankar</span></a>
+            <a href="index.html" class="logo" style="display: flex; align-items: center; gap: 10px;">
+                <img src="images/logo.webp" alt="TM Player" style="width: 36px; height: 36px; border-radius: 10px; object-fit: cover;">
+                <span>TM <span>Player</span></span>
+            </a>
             <ul class="nav-links">
-                <li><a href="../index.html#projects">All Apps</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#equalizer">Equalizer</a></li>
                 <li><a href="#formats">Formats</a></li>
                 <li><a href="privacy.html">Privacy</a></li>
             </ul>
-            <a href="https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer" target="_blank" class="btn btn-nav">
-                <i class="fab fa-google-play"></i> Get App
+            <a href="https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer" target="_blank" class="btn btn-nav" style="background: linear-gradient(135deg, #6366f1, #ec4899); border: none;">
+                <i class="fab fa-google-play"></i> Install Free
             </a>
         </nav>
     </header>
@@ -501,6 +585,27 @@
                     <a href="privacy.html" class="btn-outline">
                         <i class="fas fa-shield-alt"></i> Privacy Policy
                     </a>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 18px; margin-top: 24px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.1); flex-wrap: wrap;">
+                    <div style="display: flex; align-items: center; gap: 6px;">
+                        <span style="font-size: 1.3rem; font-weight: 800; color: #fff;">4.9</span>
+                        <div style="color: #f59e0b; font-size: 0.95rem;">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <span style="color: rgba(255,255,255,0.2);">|</span>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary);"><strong style="color: #fff;">100% Free</strong> &amp; Offline</div>
+                    <span style="color: rgba(255,255,255,0.2);">|</span>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary);"><i class="fas fa-shield-alt" style="color: #10b981;"></i> Safe &amp; Verified</div>
+                </div>
+
+                <!-- Desktop QR Code -->
+                <div class="desktop-qr-card">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.tarunmankar.mediaplayer" alt="Scan QR to Download TM Player" style="width:130px; height:130px; border-radius:12px; background:#fff; padding:6px;">
+                    <div style="font-size:0.82rem; color:var(--text-secondary); margin-top:8px; font-weight:600;">
+                        <i class="fas fa-qrcode" style="color:#a855f7;"></i> Scan to Install on Phone
+                    </div>
                 </div>
             </div>
 
@@ -696,28 +801,39 @@
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <a href="../index.html" class="logo">Tarun <span>Mankar</span></a>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <img src="images/logo.webp" alt="TM Player" style="width: 36px; height: 36px; border-radius: 10px; object-fit: cover;">
+                <span style="font-size: 1.3rem; font-weight: 700; color: #fff;">TM <span style="color: var(--accent-color);">Player</span></span>
+            </div>
             <p style="color: var(--text-secondary); max-width: 650px; font-size: 0.95rem;">
-                TM Player is an independent media player developed with passion by Tarun Mankar. Dedicated to delivering premium audio experiences while respecting absolute user privacy.
+                TM Player is a powerful offline HD music player dedicated to studio-grade acoustics, custom equalization, and absolute user privacy.
             </p>
             <div class="footer-links">
-                <a href="../index.html">Portfolio Home</a>
+                <a href="#features">Features</a>
                 <span>•</span>
-                <a href="../index.html#projects">Other Apps</a>
+                <a href="#equalizer">Equalizer</a>
                 <span>•</span>
                 <a href="privacy.html">Privacy Policy</a>
                 <span>•</span>
-                <a href="mailto:mankar.tarun4@gmail.com">Developer Support</a>
+                <a href="https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer" target="_blank">Google Play Store</a>
             </div>
-            <div class="social-links" style="margin-top: 15px;">
-                <a href="https://github.com/tarunmankar" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/tarun-mankar/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.youtube.com/@tarun_mankar" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                <a href="https://play.google.com/store/apps/dev?id=5447961862962854741" target="_blank" aria-label="Google Play"><i class="fab fa-google-play"></i></a>
-            </div>
-            <p style="margin-top: 15px; font-size: 0.85rem; color: #64748b;">&copy; 2026 Tarun Mankar. All Rights Reserved.</p>
+            <p style="margin-top: 15px; font-size: 0.85rem; color: #64748b;">&copy; 2026 TM Player. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <!-- Mobile Sticky Install Bar -->
+    <div class="mobile-sticky-bar">
+        <div class="sticky-app-info">
+            <img src="images/logo.webp" alt="TM Player" class="sticky-icon">
+            <div class="sticky-text">
+                <span class="sticky-title">TM Player</span>
+                <span class="sticky-subtitle">⭐ 4.9 • HD Audio & Equalizer</span>
+            </div>
+        </div>
+        <a href="https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer" target="_blank" class="sticky-btn">
+            <i class="fab fa-google-play"></i> Install
+        </a>
+    </div>
 
     <script>
         // Header scroll effect

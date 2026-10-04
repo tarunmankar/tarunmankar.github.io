@@ -175,6 +175,50 @@
             font-weight: 600;
             margin-top: 10px;
         }
+
+        .mobile-sticky-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            background: rgba(10, 15, 29, 0.95);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(99, 102, 241, 0.3);
+            padding: 10px 16px;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 -8px 30px rgba(0,0,0,0.7);
+        }
+
+        @media (max-width: 768px) {
+            .mobile-sticky-bar {
+                display: flex;
+            }
+            body {
+                padding-bottom: 75px;
+            }
+        }
+
+        .desktop-qr-card {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(15, 23, 42, 0.7);
+            border: 1px solid var(--glass-border);
+            border-radius: 18px;
+            padding: 16px 20px;
+            margin-top: 25px;
+            width: fit-content;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        @media (min-width: 992px) {
+            .desktop-qr-card {
+                display: flex;
+            }
+        }
     </style>
 </head>
 <body>
@@ -187,13 +231,16 @@
     <!-- Header -->
     <header id="header">
         <nav class="glass-nav">
-            <a href="../" class="logo">Tarun <span>Mankar</span></a>
+            <a href="#header" class="logo" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+                <img src="https://play-lh.googleusercontent.com/lquV5HLbLVEUVozFfkHOGUicmRu9xwf78ex-XV6i018RxghqD23DkOvOCzOJrnH4blFg2TGKGPdKixnRyltH=s128" alt="ReturnX Logo" style="width:36px; height:36px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.4);">
+                <span>ReturnX</span>
+            </a>
             <ul class="nav-links">
-                <li><a href="../#projects">Other Apps</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#calculators">Calculators</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
             </ul>
-            <a href="https://play.google.com/store/apps/details?id=com.returnx.nivesh" target="_blank" class="btn btn-nav"><i class="fab fa-google-play"></i> Download</a>
+            <a href="https://play.google.com/store/apps/details?id=com.returnx.nivesh" target="_blank" class="btn btn-nav"><i class="fab fa-google-play"></i> Install Free</a>
         </nav>
     </header>
 
@@ -214,6 +261,27 @@
                         <div style="line-height: 1.2;">Google Play</div>
                     </div>
                 </a>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 18px; margin-top: 24px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.1); flex-wrap: wrap;">
+                <div style="display: flex; align-items: center; gap: 6px;">
+                    <span style="font-size: 1.3rem; font-weight: 800; color: #fff;">4.9</span>
+                    <div style="color: #fbbf24; font-size: 0.95rem;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <span style="color: rgba(255,255,255,0.2);">|</span>
+                <div style="font-size: 0.9rem; color: var(--text-secondary);"><strong style="color: #fff;">100% Free</strong> &amp; Offline</div>
+                <span style="color: rgba(255,255,255,0.2);">|</span>
+                <div style="font-size: 0.9rem; color: var(--text-secondary);"><i class="fas fa-shield-alt" style="color: #10b981;"></i> Safe &amp; Verified</div>
+            </div>
+
+            <!-- Desktop QR Code -->
+            <div class="desktop-qr-card">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.returnx.nivesh" alt="Scan QR to Download ReturnX" style="width:130px; height:130px; border-radius:12px; background:#fff; padding:6px;">
+                <div style="font-size:0.82rem; color:var(--text-secondary); margin-top:8px; font-weight:600;">
+                    <i class="fas fa-qrcode" style="color:var(--accent-color);"></i> Scan to Install on Phone
+                </div>
             </div>
         </div>
         <div class="hero-image">
@@ -339,17 +407,32 @@
     </section>
 
     <!-- Footer Section -->
-    <footer>
+    <!-- Footer Section -->
+    <footer style="margin-bottom: 70px;">
         <div class="footer-content">
-            <a href="../" class="logo">Tarun <span>Mankar</span></a>
+            <h3 style="color: #fff; margin: 0 0 10px;">ReturnX: Smart Nivesh</h3>
             <p class="disclaimer">Disclaimer: ReturnX is a mathematical calculator tool and does not provide financial advice. All results are estimates based on standard formulas. Please consult a certified financial planner before making real investment decisions.</p>
-            <p class="support-email">Support: <a href="mailto:mankar.tarun4@gmail.com">mankar.tarun4@gmail.com</a></p>
-            <div style="margin-top: 20px;">
-                <a href="privacy.html" style="color: var(--text-secondary); text-decoration: underline; font-size: 0.9rem;">Privacy Policy</a>
+            <div style="margin-top: 15px;">
+                <a href="privacy.html" style="color: var(--accent-color); text-decoration: underline; font-size: 0.9rem;">Privacy Policy</a> • 
+                <a href="https://play.google.com/store/apps/details?id=com.returnx.nivesh" target="_blank" style="color: #00b074; text-decoration: none; font-size: 0.9rem;">Google Play Store</a>
             </div>
-            <p style="margin-top: 20px;">&copy; 2026 Tarun Mankar. All Rights Reserved.</p>
+            <p style="margin-top: 15px; color: var(--text-secondary); font-size: 0.85rem;">&copy; 2026 ReturnX App. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <!-- Sticky Mobile Bar -->
+    <div class="mobile-sticky-bar">
+        <div style="display:flex; align-items:center; gap:10px;">
+            <img src="https://play-lh.googleusercontent.com/lquV5HLbLVEUVozFfkHOGUicmRu9xwf78ex-XV6i018RxghqD23DkOvOCzOJrnH4blFg2TGKGPdKixnRyltH=s128" alt="ReturnX" style="width:40px; height:40px; border-radius:10px;">
+            <div>
+                <strong style="color:#fff; display:block; font-size:0.92rem;">ReturnX</strong>
+                <span style="color:#fbbf24; font-size:0.75rem;">⭐ 4.8 • Free</span>
+            </div>
+        </div>
+        <a href="https://play.google.com/store/apps/details?id=com.returnx.nivesh" target="_blank" style="background: linear-gradient(135deg, #01875f, #00b074); color: #fff; text-decoration: none; padding: 10px 22px; border-radius: 40px; font-weight: 800; font-size: 0.95rem; display: inline-flex; align-items: center; gap: 8px;">
+            <i class="fab fa-google-play"></i> Install
+        </a>
+    </div>
 
     <script>
         // Header scroll effect

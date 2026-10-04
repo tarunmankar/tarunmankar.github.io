@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Official Android Apps | 100% Free &amp; Offline on Google Play Store</title>
+    <meta name="description" content="Download official 100% free, ad-safe, and offline Android apps on Google Play Store. Featuring Jokewala, SplitBhai, SmartEMI, ReturnX, TM Player & more.">
+    <link rel="canonical" href="https://tarun-mankar.web.app/apps/" />
+    <link rel="icon" type="image/webp" href="../jokewala/images/icon-512.webp">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Instagram / WhatsApp / Facebook -->
+    <meta property="og:title" content="⚡ Download Official Android Apps — 100% Free on Play Store">
+    <meta property="og:description" content="Get official, high-speed Android apps: Jokewala, SplitBhai, SmartEMI, ReturnX, TM Player & more. Zero ads, 100% offline & private.">
+    <meta property="og:image" content="https://tarun-mankar.web.app/jokewala/images/icon-512.webp">
+    <meta property="og:url" content="https://tarun-mankar.web.app/apps/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Download Official Android Apps | Google Play">
+    <meta name="twitter:description" content="Official 100% Free Android Apps: Jokes, Finance, Offline Music & Utilities. Install directly from Google Play.">
+    <meta name="twitter:image" content="https://tarun-mankar.web.app/jokewala/images/icon-512.webp">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Android Apps by Tarun Mankar",
+      "description": "Collection of official Android mobile applications published by Tarun Mankar on the Google Play Store.",
+      "url": "https://tarun-mankar.web.app/apps/",
+      "author": {
+        "@type": "Person",
+        "name": "Tarun Mankar",
+        "url": "https://tarun-mankar.web.app/"
+      },
+      "hasPart": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Jokewala: Hindi Jokes Chutkule",
+          "operatingSystem": "Android",
+          "applicationCategory": "EntertainmentApplication",
+          "downloadUrl": "https://play.google.com/store/apps/details?id=com.jokewala.app",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "SplitBhai: Bill Splitter",
+          "operatingSystem": "Android",
+          "applicationCategory": "FinanceApplication",
+          "downloadUrl": "https://play.google.com/store/apps/details?id=com.splitbhai.app",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "SmartEMI: Loan & EMI Calc",
+          "operatingSystem": "Android",
+          "applicationCategory": "FinanceApplication",
+          "downloadUrl": "https://play.google.com/store/apps/details?id=com.smartemi.app",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "ReturnX: Smart Nivesh Calculator",
+          "operatingSystem": "Android",
+          "applicationCategory": "FinanceApplication",
+          "downloadUrl": "https://play.google.com/store/apps/details?id=com.returnx.nivesh",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "TM Player: HD Offline Music Player",
+          "operatingSystem": "Android",
+          "applicationCategory": "MusicApplication",
+          "downloadUrl": "https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Tarun Music: Cinematic BGM",
+          "operatingSystem": "Android",
+          "applicationCategory": "MusicApplication",
+          "downloadUrl": "https://play.google.com/store/apps/details?id=com.tarunmusic.app",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Base Styles -->
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        :root {
+            --play-green: #01875f;
+            --play-green-glow: #00b074;
+            --gold: #fbbf24;
+            --gold-glow: rgba(251, 191, 36, 0.4);
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Outfit', sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            overflow-x: hidden;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* Top Mini Header */
+        .bio-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            background: rgba(10, 15, 29, 0.85);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .bio-header-left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.05rem;
+        }
+
+        .bio-header-left img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border: 2px solid var(--primary-color);
+        }
+
+        .bio-header-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-header-play {
+            background: linear-gradient(135deg, var(--play-green), #00b074);
+            color: #fff;
+            text-decoration: none;
+            padding: 7px 14px;
+            border-radius: 30px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 12px rgba(1, 135, 95, 0.35);
+            transition: var(--transition);
+        }
+
+        .btn-header-play:hover {
+            transform: scale(1.03);
+            color: #fff;
+        }
+
+        .btn-header-share {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid var(--glass-border);
+            color: #fff;
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .btn-header-share:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: #fbbf24;
+        }
+
+        /* Container */
+        .hub-container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 24px 16px 80px;
+        }
+
+        /* Profile Hero Banner */
+        .profile-hero {
+            text-align: center;
+            padding: 24px 20px 20px;
+            border-radius: 24px;
+            margin-bottom: 24px;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(180deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.85) 100%);
+        }
+
+        .profile-hero::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 250px;
+            height: 120px;
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.35), transparent 70%);
+            pointer-events: none;
+        }
+
+        .profile-avatar-wrap {
+            position: relative;
+            width: 90px;
+            height: 90px;
+            margin: 0 auto 16px;
+        }
+
+        .profile-avatar-wrap img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        .verified-badge {
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            background: #0ea5e9;
+            color: #fff;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            border: 2px solid var(--bg-color);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .profile-title {
+            font-size: 1.6rem;
+            font-weight: 800;
+            margin: 0 0 4px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .profile-handle {
+            color: var(--accent-color);
+            font-size: 0.92rem;
+            font-weight: 600;
+            margin: 0 0 10px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .profile-bio {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin: 0 0 18px;
+            max-width: 480px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Trust Metrics Strip */
+        .trust-strip {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .trust-pill {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #e2e8f0;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .trust-pill i {
+            color: var(--gold);
+        }
+
+        .trust-pill.play-verified i {
+            color: #34d399;
+        }
+
+        /* Master Play Store Banner */
+        .master-play-cta {
+            background: linear-gradient(135deg, rgba(1, 135, 95, 0.25), rgba(99, 102, 241, 0.15));
+            border: 1px solid rgba(1, 135, 95, 0.45);
+            padding: 14px 18px;
+            border-radius: 18px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .master-play-cta:hover {
+            transform: translateY(-2px);
+            border-color: #00b074;
+            box-shadow: 0 8px 25px rgba(1, 135, 95, 0.35);
+        }
+
+        .master-play-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .master-play-icon {
+            font-size: 2rem;
+            color: #00b074;
+            filter: drop-shadow(0 0 8px rgba(0, 176, 116, 0.5));
+        }
+
+        .master-play-text h4 {
+            margin: 0 0 2px;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        .master-play-text p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+        }
+
+        .master-play-badge {
+            background: linear-gradient(135deg, #01875f, #00b074);
+            color: #fff;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Spotlight Trending Card (Jokewala) */
+        .spotlight-card {
+            border-radius: 24px;
+            padding: 22px;
+            margin-bottom: 26px;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(145deg, rgba(245, 158, 11, 0.12), rgba(239, 68, 68, 0.08), rgba(15, 23, 42, 0.85));
+            border: 2px solid rgba(245, 158, 11, 0.4);
+            box-shadow: 0 12px 35px rgba(245, 158, 11, 0.2);
+            animation: spotlight-pulse 3s infinite alternate;
+        }
+
+        @keyframes spotlight-pulse {
+            0% { box-shadow: 0 10px 30px rgba(245, 158, 11, 0.2); border-color: rgba(245, 158, 11, 0.4); }
+            100% { box-shadow: 0 14px 40px rgba(245, 158, 11, 0.35); border-color: rgba(245, 158, 11, 0.7); }
+        }
+
+        .spotlight-ribbon {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: linear-gradient(135deg, #f59e0b, #ef4444);
+            color: #fff;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 5px 12px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+        }
+
+        .spotlight-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 14px;
+        }
+
+        .spotlight-icon {
+            width: 72px;
+            height: 72px;
+            border-radius: 18px;
+            object-fit: cover;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+            border: 2px solid rgba(251, 191, 36, 0.4);
+            flex-shrink: 0;
+        }
+
+        .spotlight-title h3 {
+            margin: 0 0 4px;
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .spotlight-rating {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.82rem;
+            color: #fbbf24;
+            font-weight: 700;
+        }
+
+        .spotlight-rating .badge-live {
+            background: rgba(16, 185, 129, 0.2);
+            border: 1px solid rgba(16, 185, 129, 0.4);
+            color: #34d399;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            margin-left: 6px;
+        }
+
+        .spotlight-hook {
+            background: rgba(251, 191, 36, 0.08);
+            border-left: 3px solid #fbbf24;
+            padding: 10px 14px;
+            border-radius: 0 10px 10px 0;
+            font-size: 0.92rem;
+            line-height: 1.5;
+            color: #fef08a;
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+
+        .spotlight-features {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+        }
+
+        .spotlight-feature-tag {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: #e2e8f0;
+            font-size: 0.78rem;
+            padding: 5px 10px;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .spotlight-feature-tag i {
+            color: #fbbf24;
+        }
+
+        .spotlight-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn-install-spotlight {
+            flex: 1;
+            min-width: 200px;
+            background: linear-gradient(135deg, #01875f, #00b074);
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            border-radius: 50px;
+            font-size: 1.05rem;
+            font-weight: 800;
+            text-align: center;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 8px 24px rgba(1, 135, 95, 0.5);
+            transition: var(--transition);
+        }
+
+        .btn-install-spotlight:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(1, 135, 95, 0.7);
+            color: #fff;
+        }
+
+        .btn-spotlight-info {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid var(--glass-border);
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 18px;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+
+        .btn-spotlight-info:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: #fbbf24;
+            color: #fff;
+        }
+
+        .hub-hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(1, 135, 95, 0.2);
+            border: 1px solid rgba(1, 135, 95, 0.45);
+            color: #34d399;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 14px;
+        }
+
+        /* App Cards Feed */
+        .apps-feed {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .bio-app-card {
+            border-radius: 20px;
+            padding: 18px;
+            transition: var(--transition);
+            position: relative;
+            background: rgba(15, 23, 42, 0.65);
+            border: 1px solid var(--glass-border);
+        }
+
+        .bio-app-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(99, 102, 241, 0.4);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .app-card-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 12px;
+        }
+
+        .card-app-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 14px;
+            object-fit: cover;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            flex-shrink: 0;
+        }
+
+        .app-meta-box {
+            flex-grow: 1;
+            min-width: 0;
+        }
+
+        .app-category-badge {
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--accent-color);
+            margin-bottom: 2px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .app-card-title {
+            margin: 0 0 4px;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #fff;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .app-stats-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.78rem;
+            color: var(--text-secondary);
+        }
+
+        .app-stats-row .rating {
+            color: #fbbf24;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .app-desc-text {
+            color: var(--text-secondary);
+            font-size: 0.88rem;
+            line-height: 1.5;
+            margin: 0 0 14px;
+        }
+
+        .app-highlights-strip {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+
+        .highlight-chip {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #cbd5e1;
+            font-size: 0.74rem;
+            font-weight: 500;
+            padding: 3px 8px;
+            border-radius: 6px;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .highlight-chip i {
+            font-size: 0.7rem;
+            color: var(--primary-color);
+        }
+
+        .app-button-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .btn-install-primary {
+            flex: 1;
+            background: linear-gradient(135deg, #01875f, #00b074);
+            color: #fff;
+            text-decoration: none;
+            padding: 11px 18px;
+            border-radius: 50px;
+            font-size: 0.92rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            box-shadow: 0 4px 15px rgba(1, 135, 95, 0.4);
+            transition: var(--transition);
+        }
+
+        .btn-install-primary:hover {
+            transform: scale(1.02);
+            box-shadow: 0 6px 20px rgba(1, 135, 95, 0.6);
+            color: #fff;
+        }
+
+        .btn-details-ghost {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            color: #e2e8f0;
+            text-decoration: none;
+            padding: 11px 16px;
+            border-radius: 50px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: var(--transition);
+        }
+
+        .btn-details-ghost:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Why Download Guarantee Section */
+        .guarantee-box {
+            margin-top: 36px;
+            padding: 22px;
+            border-radius: 20px;
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--glass-border);
+        }
+
+        .guarantee-header {
+            text-align: center;
+            margin-bottom: 18px;
+        }
+
+        .guarantee-header h3 {
+            margin: 0 0 6px;
+            color: #fff;
+            font-size: 1.15rem;
+        }
+
+        .guarantee-header p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .guarantee-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .guarantee-item {
+            text-align: center;
+            padding: 12px 8px;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .guarantee-item i {
+            font-size: 1.4rem;
+            color: #34d399;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .guarantee-item strong {
+            display: block;
+            color: #fff;
+            font-size: 0.8rem;
+            margin-bottom: 2px;
+        }
+
+        .guarantee-item span {
+            color: var(--text-secondary);
+            font-size: 0.72rem;
+        }
+
+        /* Bottom Share Floating Pill */
+        .share-floating-bar {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 99;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(15, 23, 42, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            padding: 8px 16px;
+            border-radius: 50px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+            width: max-content;
+            max-width: 90%;
+        }
+
+        .share-floating-bar span {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #cbd5e1;
+        }
+
+        .btn-wa-share {
+            background: #25D366;
+            color: #fff;
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-copy-link {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-family: inherit;
+        }
+
+        /* Toast notification */
+        .toast-notify {
+            position: fixed;
+            top: 70px;
+            left: 50%;
+            transform: translateX(-50%) translateY(-20px);
+            background: #10b981;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 0.88rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .toast-notify.show {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        @media (max-width: 480px) {
+            .hub-container {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+            .profile-hero {
+                padding: 20px 14px;
+            }
+            .guarantee-grid {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+            .spotlight-actions {
+                flex-direction: column;
+            }
+            .btn-install-spotlight {
+                width: 100%;
+            }
+            .btn-spotlight-info {
+                width: 100%;
+            }
+        }
+
+        .desktop-profile-qr {
+            display: none;
+        }
+
+        @media (min-width: 900px) {
+            .hub-container {
+                max-width: 1040px;
+                padding: 40px 24px 90px;
+            }
+            .profile-hero {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-align: left;
+                gap: 40px;
+                padding: 36px;
+            }
+            .profile-hero-content {
+                flex: 1;
+            }
+            .profile-avatar-wrap {
+                margin: 0 0 16px 0;
+            }
+            .profile-bio {
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .trust-strip {
+                justify-content: flex-start;
+            }
+            .desktop-profile-qr {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: rgba(15, 23, 42, 0.7);
+                border: 1px solid var(--glass-border);
+                border-radius: 18px;
+                padding: 16px 20px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+                flex-shrink: 0;
+            }
+            .apps-feed {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 22px;
+            }
+            .spotlight-card {
+                padding: 28px 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animated Glow Orbs -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <!-- Sticky Mini Navigation -->
+    <header class="bio-header">
+        <div class="bio-header-left">
+            <i class="fab fa-google-play" style="color: #00b074; font-size: 1.4rem;"></i>
+            <span>Official Android Apps</span>
+        </div>
+        <div class="bio-header-actions">
+            <a href="https://play.google.com/store/apps/dev?id=5447961862962854741" target="_blank" class="btn-header-play" title="Official Google Play Storefront">
+                <i class="fab fa-google-play"></i> Play Store
+            </a>
+            <button class="btn-header-share" onclick="copyBioLink()" title="Share Page">
+                <i class="fas fa-share-nodes"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="hub-container">
+        <!-- App Hub Hero -->
+        <section class="profile-hero glass-panel">
+            <div class="profile-hero-content">
+                <div class="hub-hero-badge">
+                    <i class="fab fa-google-play"></i> Verified Google Play Storefront
+                </div>
+                <h1 class="profile-title" style="margin-bottom: 8px;">Official Android Apps</h1>
+                <div class="profile-handle" style="margin-bottom: 14px;">
+                    <i class="fas fa-shield-halved" style="color: #00b074;"></i> 100% Free Forever &bull; Google Play Protect Verified
+                </div>
+                <p class="profile-bio">
+                    High-speed, lightweight, and 100% free Android applications for everyday utility, comedy, audio, and finance. Completely offline-ready with zero data tracking.
+                </p>
+
+                <div class="trust-strip">
+                    <div class="trust-pill play-verified">
+                        <i class="fas fa-shield-halved"></i> Play Protect Safe
+                    </div>
+                    <div class="trust-pill">
+                        <i class="fas fa-star"></i> 4.8+ Rating
+                    </div>
+                    <div class="trust-pill">
+                        <i class="fas fa-bolt"></i> 100% Free Forever
+                    </div>
+                    <div class="trust-pill">
+                        <i class="fas fa-user-shield"></i> Zero Tracking
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desktop QR Scanner Card -->
+            <div class="desktop-profile-qr">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&amp;data=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdev%3Fid%3D5447961862962854741" alt="Scan QR to Download Apps" style="width:125px; height:125px; border-radius:12px; background:#fff; padding:6px;">
+                <div style="font-size:0.8rem; color:#94a3b8; margin-top:8px; font-weight:600; text-align:center;">
+                    <i class="fas fa-qrcode" style="color:#00b074;"></i> Scan to Open on Phone
+                </div>
+            </div>
+        </section>
+
+        <!-- Master Direct Play Store Banner -->
+        <a href="https://play.google.com/store/apps/dev?id=5447961862962854741" target="_blank" class="master-play-cta glass-panel" title="Open Google Play Store Developer Portfolio">
+            <div class="master-play-info">
+                <i class="fab fa-google-play master-play-icon"></i>
+                <div class="master-play-text">
+                    <h4>Official Google Play Storefront</h4>
+                    <p>Explore All Published Apps • 100% Safe &amp; Free</p>
+                </div>
+            </div>
+            <div class="master-play-badge">
+                Open Store <i class="fas fa-arrow-up-right-from-square"></i>
+            </div>
+        </a>
+
+        <!-- Spotlight App of the Week: JOKEWALA -->
+        <div class="spotlight-card glass-panel" id="spotlight-app">
+            <div class="spotlight-ribbon">
+                <i class="fas fa-fire"></i> New Release
+            </div>
+
+            <div class="spotlight-header">
+                <img src="https://play-lh.googleusercontent.com/XNWBvjRduu7rZLvK2YcIw7gB9mtPE0xojR73fcoUYTNDaboOnJYPr0DiEyymeGlFMdBnnq87JcYD3LLaehpCWQA=s128" alt="Jokewala App Icon" class="spotlight-icon" loading="eager">
+                <div class="spotlight-title">
+                    <h3>Jokewala: Hindi Jokes</h3>
+                    <div class="spotlight-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>5.0</span>
+                        <span class="badge-live"><i class="fas fa-check-circle"></i> Live Now</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spotlight-hook">
+                😂 <strong>हंसी नहीं रुकेगी!</strong> Thousands of hilarious Hindi jokes, desi chutkule, text-to-speech audio reader &amp; 1-click WhatsApp sharing. 100% Free &amp; Offline!
+            </div>
+
+            <div class="spotlight-features">
+                <div class="spotlight-feature-tag">
+                    <i class="fas fa-microphone-lines"></i> Audio Voice Jokes
+                </div>
+                <div class="spotlight-feature-tag">
+                    <i class="fab fa-whatsapp"></i> 1-Click WhatsApp Share
+                </div>
+                <div class="spotlight-feature-tag">
+                    <i class="fas fa-wifi"></i> 100% Offline (SQLite)
+                </div>
+                <div class="spotlight-feature-tag">
+                    <i class="fas fa-shield-cat"></i> Ad-Safe &amp; Clean
+                </div>
+            </div>
+
+            <div class="spotlight-actions">
+                <a href="https://play.google.com/store/apps/details?id=com.jokewala.app" target="_blank" class="btn-install-spotlight" id="btn-spotlight-install">
+                    <i class="fab fa-google-play"></i> Install from Play Store
+                </a>
+                <a href="../jokewala/" class="btn-spotlight-info">
+                    <i class="fas fa-circle-info"></i> Details
+                </a>
+            </div>
+        </div>
+
+        <!-- All Apps Feed -->
+        <section class="apps-feed" id="appsList">
+
+            <!-- App 1: Jokewala -->
+            <article class="bio-app-card glass-panel" data-category="comedy" data-title="jokewala hindi jokes chutkule comedy audio entertainment">
+                <div class="app-card-top">
+                    <img src="https://play-lh.googleusercontent.com/XNWBvjRduu7rZLvK2YcIw7gB9mtPE0xojR73fcoUYTNDaboOnJYPr0DiEyymeGlFMdBnnq87JcYD3LLaehpCWQA=s128" alt="Jokewala Icon" class="card-app-icon" loading="lazy">
+                    <div class="app-meta-box">
+                        <div class="app-category-badge" style="color: #fbbf24;">
+                            <i class="fas fa-laugh-squint"></i> Comedy &amp; Desi Chutkule
+                        </div>
+                        <h3 class="app-card-title">Jokewala: Hindi Jokes</h3>
+                        <div class="app-stats-row">
+                            <span class="rating"><i class="fas fa-star"></i> 5.0</span>
+                            <span>•</span>
+                            <span>45+ Categories</span>
+                            <span>•</span>
+                            <span style="color:#34d399; font-weight: 700;">FREE</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="app-desc-text">
+                    Non-stop laughter with hilarious Hindi jokes, desi chutkule &amp; memes. Listen to jokes read aloud with text-to-speech audio and share 1-click on WhatsApp status.
+                </p>
+                <div class="app-highlights-strip">
+                    <span class="highlight-chip"><i class="fas fa-volume-high"></i> Audio Laughs</span>
+                    <span class="highlight-chip"><i class="fas fa-bolt"></i> 100% Offline</span>
+                    <span class="highlight-chip"><i class="fab fa-whatsapp"></i> Instant Share</span>
+                </div>
+                <div class="app-button-group">
+                    <a href="https://play.google.com/store/apps/details?id=com.jokewala.app" target="_blank" class="btn-install-primary">
+                        <i class="fab fa-google-play"></i> Install Free
+                    </a>
+                    <a href="../jokewala/" class="btn-details-ghost">
+                        <i class="fas fa-info-circle"></i> Info
+                    </a>
+                </div>
+            </article>
+
+            <!-- App 2: SplitBhai -->
+            <article class="bio-app-card glass-panel" data-category="finance" data-title="splitbhai bill splitter group expense sharing trip roommate finance">
+                <div class="app-card-top">
+                    <img src="https://play-lh.googleusercontent.com/wM0Dd-cFNPirlZUXSfmuR-qJPhNesbIgj5OQHyFosH-yk9yBbxsYgSZYvaqu9ZMLG0oDeGEC6elOPzblFATwM_0=s128" alt="SplitBhai Icon" class="card-app-icon" loading="lazy">
+                    <div class="app-meta-box">
+                        <div class="app-category-badge">
+                            <i class="fas fa-receipt"></i> Bill Splitter &amp; Expenses
+                        </div>
+                        <h3 class="app-card-title">SplitBhai: Bill Splitter</h3>
+                        <div class="app-stats-row">
+                            <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                            <span>•</span>
+                            <span>Group Settlement</span>
+                            <span>•</span>
+                            <span style="color:#34d399; font-weight: 700;">FREE</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="app-desc-text">
+                    Effortlessly split bills, track shared expenses with roommates, and settle group trip costs with zero math confusion. No login required.
+                </p>
+                <div class="app-highlights-strip">
+                    <span class="highlight-chip"><i class="fas fa-users"></i> Roommate &amp; Trips</span>
+                    <span class="highlight-chip"><i class="fas fa-calculator"></i> Auto Settlement</span>
+                    <span class="highlight-chip"><i class="fas fa-file-pdf"></i> Export Summary</span>
+                </div>
+                <div class="app-button-group">
+                    <a href="https://play.google.com/store/apps/details?id=com.splitbhai.app" target="_blank" class="btn-install-primary">
+                        <i class="fab fa-google-play"></i> Install Free
+                    </a>
+                    <a href="../splitbhai/" class="btn-details-ghost">
+                        <i class="fas fa-info-circle"></i> Info
+                    </a>
+                </div>
+            </article>
+
+            <!-- App 3: SmartEMI -->
+            <article class="bio-app-card glass-panel" data-category="finance" data-title="smartemi loan emi calculator home car personal finance">
+                <div class="app-card-top">
+                    <img src="https://play-lh.googleusercontent.com/oYULoCVVNA204SogPuZ-nO21MjutkShdo70ZozqnsjY9dHp8N5iFaY0TxQSLBSrHZu2Oo9pV-iqrPoB0ZS_SOQ=s128" alt="SmartEMI Icon" class="card-app-icon" loading="lazy">
+                    <div class="app-meta-box">
+                        <div class="app-category-badge">
+                            <i class="fas fa-calculator"></i> Loan &amp; EMI Calculator
+                        </div>
+                        <h3 class="app-card-title">SmartEMI: Loan &amp; EMI Calc</h3>
+                        <div class="app-stats-row">
+                            <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                            <span>•</span>
+                            <span>Amortization Charts</span>
+                            <span>•</span>
+                            <span style="color:#34d399; font-weight: 700;">FREE</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="app-desc-text">
+                    Calculate Home, Car &amp; Personal Loan EMIs instantly. Compare multiple loan options, generate visual repayment schedules, and save thousands on interest.
+                </p>
+                <div class="app-highlights-strip">
+                    <span class="highlight-chip"><i class="fas fa-chart-pie"></i> Visual Charts</span>
+                    <span class="highlight-chip"><i class="fas fa-scale-balanced"></i> Loan Comparison</span>
+                    <span class="highlight-chip"><i class="fas fa-coins"></i> Prepayment Analyzer</span>
+                </div>
+                <div class="app-button-group">
+                    <a href="https://play.google.com/store/apps/details?id=com.smartemi.app" target="_blank" class="btn-install-primary">
+                        <i class="fab fa-google-play"></i> Install Free
+                    </a>
+                    <a href="../smartemi/" class="btn-details-ghost">
+                        <i class="fas fa-info-circle"></i> Info
+                    </a>
+                </div>
+            </article>
+
+            <!-- App 4: ReturnX -->
+            <article class="bio-app-card glass-panel" data-category="finance" data-title="returnx nivesh smart sip mutual funds lumpsum investment calculator wealth">
+                <div class="app-card-top">
+                    <img src="https://play-lh.googleusercontent.com/lquV5HLbLVEUVozFfkHOGUicmRu9xwf78ex-XV6i018RxghqD23DkOvOCzOJrnH4blFg2TGKGPdKixnRyltH=s128" alt="ReturnX Icon" class="card-app-icon" loading="lazy">
+                    <div class="app-meta-box">
+                        <div class="app-category-badge">
+                            <i class="fas fa-chart-line"></i> Wealth &amp; Investment Calc
+                        </div>
+                        <h3 class="app-card-title">ReturnX: Smart Nivesh</h3>
+                        <div class="app-stats-row">
+                            <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                            <span>•</span>
+                            <span>SIP / Lumpsum / SWP</span>
+                            <span>•</span>
+                            <span style="color:#34d399; font-weight: 700;">FREE</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="app-desc-text">
+                    Comprehensive wealth and return calculator for Indian investors. Calculate future returns on SIP, Mutual Funds, Lumpsum, SWP, FD, RD, and PPF schemes.
+                </p>
+                <div class="app-highlights-strip">
+                    <span class="highlight-chip"><i class="fas fa-arrow-trend-up"></i> SIP Calculator</span>
+                    <span class="highlight-chip"><i class="fas fa-piggy-bank"></i> FD &amp; RD Returns</span>
+                    <span class="highlight-chip"><i class="fas fa-indian-rupee-sign"></i> PPF &amp; SWP</span>
+                </div>
+                <div class="app-button-group">
+                    <a href="https://play.google.com/store/apps/details?id=com.returnx.nivesh" target="_blank" class="btn-install-primary">
+                        <i class="fab fa-google-play"></i> Install Free
+                    </a>
+                    <a href="../returnx/" class="btn-details-ghost">
+                        <i class="fas fa-info-circle"></i> Info
+                    </a>
+                </div>
+            </article>
+
+            <!-- App 5: TM Player -->
+            <article class="bio-app-card glass-panel" data-category="music" data-title="tm player offline music player audio flac mp3 bass equalizer">
+                <div class="app-card-top">
+                    <img src="https://play-lh.googleusercontent.com/tnfbGZPU4h1nUdPcSkA6zgn3vgIITVbAQcE_N4fREF6w_TAjTQ-bEz-WoQRGC_KxGQ1vCI0wmXUg6Rhxsk8u=s128" alt="TM Player Icon" class="card-app-icon" loading="lazy">
+                    <div class="app-meta-box">
+                        <div class="app-category-badge" style="color: #a855f7;">
+                            <i class="fas fa-music"></i> HD Offline Music Player
+                        </div>
+                        <h3 class="app-card-title">TM Player: HD Audio</h3>
+                        <div class="app-stats-row">
+                            <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                            <span>•</span>
+                            <span>10-Band EQ</span>
+                            <span>•</span>
+                            <span style="color:#34d399; font-weight: 700;">FREE</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="app-desc-text">
+                    Studio-grade offline music player with 10-band equalizer, 3D bass boost, lossless FLAC &amp; MP3 playback. Enjoy music completely offline with zero background battery drain.
+                </p>
+                <div class="app-highlights-strip">
+                    <span class="highlight-chip"><i class="fas fa-sliders"></i> 10-Band Equalizer</span>
+                    <span class="highlight-chip"><i class="fas fa-headphones"></i> 3D Bass Boost</span>
+                    <span class="highlight-chip"><i class="fas fa-shield"></i> Zero Tracking</span>
+                </div>
+                <div class="app-button-group">
+                    <a href="https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer" target="_blank" class="btn-install-primary">
+                        <i class="fab fa-google-play"></i> Install Free
+                    </a>
+                    <a href="../tmplayer/" class="btn-details-ghost">
+                        <i class="fas fa-info-circle"></i> Info
+                    </a>
+                </div>
+            </article>
+
+            <!-- App 6: Tarun Music -->
+            <article class="bio-app-card glass-panel" data-category="music" data-title="tarun music cinematic bgm soundtrack audio streaming score">
+                <div class="app-card-top">
+                    <img src="https://play-lh.googleusercontent.com/df8DYu1xPnZ3MvWCPQX7meSAruXRcu1poiYJPenAx8MMDr8dTWsP8fL_r7Smyo1Se526L3Yo8DiPxb-gleAPFA=s128" alt="Tarun Music Icon" class="card-app-icon" loading="lazy">
+                    <div class="app-meta-box">
+                        <div class="app-category-badge" style="color: #ec4899;">
+                            <i class="fas fa-compact-disc"></i> Cinematic BGM Streaming
+                        </div>
+                        <h3 class="app-card-title">Tarun Music App</h3>
+                        <div class="app-stats-row">
+                            <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                            <span>•</span>
+                            <span>Cinematic Scores</span>
+                            <span>•</span>
+                            <span style="color:#34d399; font-weight: 700;">FREE</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="app-desc-text">
+                    Official streaming app for Tarun Music. Stream epic cinematic background music, trailer themes, ambient music &amp; motivational soundtracks directly on Android.
+                </p>
+                <div class="app-highlights-strip">
+                    <span class="highlight-chip"><i class="fas fa-film"></i> Movie &amp; BGM</span>
+                    <span class="highlight-chip"><i class="fas fa-circle-play"></i> HD Streaming</span>
+                    <span class="highlight-chip"><i class="fas fa-award"></i> Original Compositions</span>
+                </div>
+                <div class="app-button-group">
+                    <a href="https://play.google.com/store/apps/details?id=com.tarunmusic.app" target="_blank" class="btn-install-primary">
+                        <i class="fab fa-google-play"></i> Install Free
+                    </a>
+                    <a href="../tarunmusic/" class="btn-details-ghost">
+                        <i class="fas fa-info-circle"></i> Info
+                    </a>
+                </div>
+            </article>
+
+            <!-- App 7: CleanSweep -->
+            <article class="bio-app-card glass-panel" data-category="tools" data-title="cleansweep phone cleaner storage cache duplicates junk tools">
+                <div class="app-card-top">
+                    <img src="../cleansweep/images/icon-512.webp" alt="CleanSweep Icon" class="card-app-icon" loading="lazy">
+                    <div class="app-meta-box">
+                        <div class="app-category-badge" style="color: #38bdf8;">
+                            <i class="fas fa-broom"></i> Phone Storage &amp; Cache Cleaner
+                        </div>
+                        <h3 class="app-card-title">CleanSweep Cleaner</h3>
+                        <div class="app-stats-row">
+                            <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                            <span>•</span>
+                            <span>100% On-Device</span>
+                            <span>•</span>
+                            <span style="color:#34d399; font-weight: 700;">FREE</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="app-desc-text">
+                    Ultra-fast storage manager. Safely clean temporary cache, empty folders, and duplicate photos with 100% on-device privacy and zero cloud uploads.
+                </p>
+                <div class="app-highlights-strip">
+                    <span class="highlight-chip"><i class="fas fa-bolt"></i> Instant Boost</span>
+                    <span class="highlight-chip"><i class="fas fa-clone"></i> Duplicate Finder</span>
+                    <span class="highlight-chip"><i class="fas fa-lock"></i> 100% On-Device</span>
+                </div>
+                <div class="app-button-group">
+                    <a href="../cleansweep/" class="btn-install-primary" style="background: linear-gradient(135deg, #0284c7, #0284c7);">
+                        <i class="fas fa-rocket"></i> Explore CleanSweep
+                    </a>
+                    <a href="../cleansweep/privacy.html" class="btn-details-ghost">
+                        <i class="fas fa-shield-alt"></i> Privacy
+                    </a>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- No Results Fallback -->
+        <div id="noResults" style="display:none; text-align:center; padding: 40px 20px; color: var(--text-secondary);">
+            <i class="fas fa-face-frown" style="font-size: 2.5rem; margin-bottom: 12px; color: var(--gold);"></i>
+            <h3>No apps found matching your search</h3>
+            <p>Try searching for "Jokes", "Split", "EMI", or "Music".</p>
+            <button class="filter-chip" onclick="resetFilters()" style="margin-top:10px;">View All Apps</button>
+        </div>
+
+        <!-- Trust & Safety Guarantee -->
+        <section class="guarantee-box glass-panel">
+            <div class="guarantee-header">
+                <h3><i class="fas fa-shield-check" style="color:#34d399;"></i> Why Download Our Android Apps?</h3>
+                <p>Built with absolute respect for user security, device performance &amp; privacy.</p>
+            </div>
+            <div class="guarantee-grid">
+                <div class="guarantee-item">
+                    <i class="fas fa-shield-halved"></i>
+                    <strong>100% Private</strong>
+                    <span>No personal tracking or data collection</span>
+                </div>
+                <div class="guarantee-item">
+                    <i class="fas fa-gauge-high"></i>
+                    <strong>Battery Friendly</strong>
+                    <span>Lightweight APKs with zero background bloat</span>
+                </div>
+                <div class="guarantee-item">
+                    <i class="fas fa-hand-holding-dollar"></i>
+                    <strong>100% Free</strong>
+                    <span>No hidden paywalls or forced subscriptions</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer style="text-align: center; margin-top: 40px; color: var(--text-secondary); font-size: 0.85rem;">
+            <p>&copy; 2026 Official Android Apps Collection • Google Play Store</p>
+            <div style="display:flex; justify-content:center; gap: 15px; margin-top: 10px; flex-wrap: wrap;">
+                <a href="https://play.google.com/store/apps/dev?id=5447961862962854741" target="_blank" style="color: #00b074; text-decoration:none;">Google Play Store</a>
+                <span>•</span>
+                <a href="../jokewala/privacy.html" style="color: var(--text-secondary); text-decoration:none;">Privacy Policy</a>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Bottom Floating Share Bar for Instagram Traffic -->
+    <div class="share-floating-bar" id="shareBar">
+        <span>Share with friends:</span>
+        <a href="https://api.whatsapp.com/send?text=Hey!%20Check%20out%20these%20awesome%20Free%20Android%20apps%20(Funny%20Hindi%20Jokes,%20Bill%20Splitter,%20EMI%20Calc%20%26%20Music)%20on%20Play%20Store:%20https://tarun-mankar.web.app/apps/" target="_blank" class="btn-wa-share">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <button class="btn-copy-link" onclick="copyBioLink()">
+            <i class="fas fa-link"></i> Copy
+        </button>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast-notify" id="toast">
+        <i class="fas fa-circle-check"></i> Link copied to clipboard!
+    </div>
+
+    <script>
+        function copyBioLink() {
+            const url = window.location.href;
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(url).then(showToast);
+            } else {
+                const temp = document.createElement('textarea');
+                temp.value = url;
+                document.body.appendChild(temp);
+                temp.select();
+                document.execCommand('copy');
+                document.body.removeChild(temp);
+                showToast();
+            }
+        }
+
+        function showToast() {
+            const toast = document.getElementById('toast');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 2500);
+        }
+    </script>
+</body>
+</html>

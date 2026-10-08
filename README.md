@@ -99,6 +99,8 @@ Official narrator and author audiobooks published on ElevenReader:
 
 - **Author Profile:** [Tarun Mankar Audiobooks on ElevenReader](https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un)
 - **Featured Titles:**
+  - *The Braced Body* (Latest 2026)
+  - *The Social Hangover*
   - *The Courage to Disappoint*
   - *The Subtle Art of Not Giving a F\*ck*
   - *Deep Work*
@@ -138,8 +140,8 @@ Official narrator and author audiobooks published on ElevenReader:
 ├── App 6 - Tarun Music:   https://play.google.com/store/apps/details?id=com.tarunmusic.app
 │   ├── Landing Page:      https://tarun-mankar.web.app/tarunmusic/
 │   └── Privacy Policy:    https://tarun-mankar.web.app/tarunmusic/privacy.html
-│
-└── App 7 - CleanSweep:    https://tarun-mankar.web.app/cleansweep/
+└── App 7 - CleanSweep:    https://play.google.com/store/apps/details?id=com.tarunmankar.cleansweep
+    ├── Landing Page:      https://tarun-mankar.web.app/cleansweep/
     └── Privacy Policy:    https://tarun-mankar.web.app/cleansweep/privacy.html
 ```
 

@@ -219,6 +219,36 @@
                 display: flex;
             }
         }
+
+        /* Screen Slider */
+        .screen-slider {
+            display: flex;
+            gap: 16px;
+            overflow-x: auto;
+            padding: 10px 4px 20px;
+            scrollbar-width: thin;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .screen-item {
+            flex: 0 0 240px;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            border: 2px solid rgba(255, 255, 255, 0.12);
+            transition: var(--transition);
+        }
+
+        .screen-item:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-color);
+        }
+
+        .screen-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -403,9 +433,32 @@
                 <p>Calculate your final net position by combining your loans and investments.</p>
             </div>
         </div>
+    <!-- App Previews Section -->
+    <section id="screenshots" class="about-section glass-panel" style="margin-bottom: 50px;">
+        <h2 style="font-size: 2.2rem; margin-bottom: 8px; text-align: center;"><i class="fas fa-mobile-screen" style="color: var(--accent-color);"></i> App Previews</h2>
+        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 25px;">Real screenshots from Google Play Store showcasing wealth calculators &amp; visual charts.</p>
+        <div class="screen-slider">
+            <div class="screen-item">
+                <img src="images/screenshot-1.webp" alt="ReturnX SIP & Wealth Calculator" loading="lazy">
+            </div>
+            <div class="screen-item">
+                <img src="images/screenshot-2.webp" alt="ReturnX Loan vs Investment Comparison" loading="lazy">
+            </div>
+            <div class="screen-item">
+                <img src="images/screenshot-3.webp" alt="ReturnX Visual Donut & Growth Charts" loading="lazy">
+            </div>
+            <div class="screen-item">
+                <img src="images/screenshot-4.webp" alt="ReturnX Advanced Calculators" loading="lazy">
+            </div>
+            <div class="screen-item">
+                <img src="images/screenshot-5.webp" alt="ReturnX Summary & Reports" loading="lazy">
+            </div>
+            <div class="screen-item">
+                <img src="images/screenshot-6.webp" alt="ReturnX 100% Offline Math" loading="lazy">
+            </div>
+        </div>
     </section>
 
-    <!-- Footer Section -->
     <!-- Footer Section -->
     <footer style="margin-bottom: 70px;">
         <div class="footer-content">

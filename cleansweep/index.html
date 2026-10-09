@@ -466,6 +466,37 @@
             gap: 6px;
             box-shadow: 0 4px 15px rgba(0, 198, 255, 0.4);
         }
+
+        /* Screen Slider */
+        .screen-slider {
+            display: flex;
+            gap: 16px;
+            overflow-x: auto;
+            padding: 10px 4px 20px;
+            scrollbar-width: thin;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .screen-item {
+            flex: 0 0 240px;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            border: 2px solid rgba(0, 242, 254, 0.25);
+            transition: var(--transition);
+        }
+
+        .screen-item:hover {
+            transform: translateY(-4px);
+            border-color: var(--cs-cyan);
+            box-shadow: 0 12px 30px rgba(0, 242, 254, 0.35);
+        }
+
+        .screen-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -530,6 +561,32 @@
                     <div style="font-size:0.82rem; color:var(--text-secondary); margin-top:8px; font-weight:600;">
                         <i class="fas fa-qrcode" style="color:var(--cs-cyan);"></i> Scan to View on Phone
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Official App Screenshots Showcase -->
+        <section id="screenshots" class="cs-section" style="padding-top: 20px; padding-bottom: 40px;">
+            <div class="cs-section-header">
+                <h2><i class="fas fa-mobile-screen" style="color: var(--cs-cyan);"></i> Official App Screenshots</h2>
+                <div class="divider"></div>
+                <p>High-speed cleaner interface with dark theme and 1-tap junk removal.</p>
+            </div>
+            <div class="screen-slider" style="max-width: 1200px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
+                <div class="screen-item">
+                    <img src="images/screenshot-1.webp" alt="CleanSweep Storage Dashboard" loading="lazy">
+                </div>
+                <div class="screen-item">
+                    <img src="images/screenshot-2.webp" alt="CleanSweep Junk File Scanner" loading="lazy">
+                </div>
+                <div class="screen-item">
+                    <img src="images/screenshot-3.webp" alt="CleanSweep Empty Folder Remover" loading="lazy">
+                </div>
+                <div class="screen-item">
+                    <img src="images/screenshot-4.webp" alt="CleanSweep Duplicate Files Finder" loading="lazy">
+                </div>
+                <div class="screen-item">
+                    <img src="images/screenshot-5.webp" alt="CleanSweep 100% Offline Clean" loading="lazy">
                 </div>
             </div>
         </section>

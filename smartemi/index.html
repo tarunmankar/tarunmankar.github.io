@@ -292,17 +292,33 @@
         /* Banner Slider */
         .slider-section {
             margin-bottom: 36px;
+        /* Screenshot Carousel */
+        .slider-section {
+            margin-bottom: 36px;
+            text-align: center;
+        }
+
+        .slider-section-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
         }
 
         .slider-container {
             width: 100%;
-            max-width: 500px;
+            max-width: 320px;
             margin: 0 auto;
-            border-radius: 22px;
+            border-radius: 28px;
             overflow: hidden;
-            box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5);
-            border: 2px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 16px 45px rgba(0, 0, 0, 0.6), 0 0 25px rgba(56, 189, 248, 0.25);
+            border: 2px solid rgba(56, 189, 248, 0.35);
             position: relative;
+            background: #000;
         }
 
         .slider {
@@ -313,6 +329,8 @@
 
         .slider img {
             width: 100%;
+            min-width: 100%;
+            flex-shrink: 0;
             height: auto;
             display: block;
         }
@@ -631,13 +649,16 @@
         </section>
 
         <!-- Screenshots Carousel -->
-        <section class="slider-section">
+        <section class="slider-section" id="screenshots">
+            <div class="slider-section-title">
+                <i class="fas fa-mobile-screen" style="color: #38bdf8;"></i> Official App Preview
+            </div>
             <div class="slider-container">
                 <div class="slider">
-                    <img src="images/banner1.webp" alt="SmartEMI Feature 1" loading="eager">
-                    <img src="images/banner2.webp" alt="SmartEMI Feature 2" loading="lazy">
-                    <img src="images/banner3.webp" alt="SmartEMI Feature 3" loading="lazy">
-                    <img src="images/banner4.webp" alt="SmartEMI Feature 4" loading="lazy">
+                    <img src="images/screenshot-1.webp" alt="SmartEMI Play Store Screenshot 1" loading="eager">
+                    <img src="images/screenshot-2.webp" alt="SmartEMI Play Store Screenshot 2" loading="lazy">
+                    <img src="images/screenshot-3.webp" alt="SmartEMI Play Store Screenshot 3" loading="lazy">
+                    <img src="images/screenshot-4.webp" alt="SmartEMI Play Store Screenshot 4" loading="lazy">
                 </div>
                 <div class="slider-dots">
                     <div class="dot active" onclick="currentSlide(0)"></div>

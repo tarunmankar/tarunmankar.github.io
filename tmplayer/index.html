@@ -530,6 +530,37 @@
                 display: flex;
             }
         }
+
+        /* Screen Slider */
+        .screen-slider {
+            display: flex;
+            gap: 16px;
+            overflow-x: auto;
+            padding: 10px 4px 20px;
+            scrollbar-width: thin;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .screen-item {
+            flex: 0 0 240px;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            border: 2px solid rgba(168, 85, 247, 0.3);
+            transition: var(--transition);
+        }
+
+        .screen-item:hover {
+            transform: translateY(-4px);
+            border-color: #ec4899;
+            box-shadow: 0 12px 30px rgba(236, 72, 153, 0.35);
+        }
+
+        .screen-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -620,7 +651,33 @@
             <div class="soundwave-bar"></div>
             <div class="soundwave-bar"></div>
             <div class="soundwave-bar"></div>
-        </div>
+        <!-- Official App Screenshots Showcase -->
+        <section id="screenshots" class="section-container" style="padding-top: 10px; padding-bottom: 40px;">
+            <div class="section-header">
+                <h2><i class="fas fa-mobile-screen" style="color: #a855f7;"></i> Official App Screenshots</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle" style="color: var(--text-secondary); max-width: 650px; margin: 15px auto 0;">
+                    Explore TM Player's glassmorphic audio player interface, 10-band equalizer, and queue controls.
+                </p>
+            </div>
+            <div class="screen-slider" style="max-width: 1200px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
+                <div class="screen-item">
+                    <img src="images/screenshot-1.webp" alt="TM Player Now Playing Screen" loading="lazy">
+                </div>
+                <div class="screen-item">
+                    <img src="images/screenshot-2.webp" alt="TM Player 10-Band Equalizer" loading="lazy">
+                </div>
+                <div class="screen-item">
+                    <img src="images/screenshot-3.webp" alt="TM Player Playlist & Tracks" loading="lazy">
+                </div>
+                <div class="screen-item">
+                    <img src="images/screenshot-4.webp" alt="TM Player Sound Effects" loading="lazy">
+                </div>
+                <div class="screen-item">
+                    <img src="images/screenshot-5.webp" alt="TM Player Album Art & Lyrics" loading="lazy">
+                </div>
+            </div>
+        </section>
 
         <!-- Features Section -->
         <section id="features" class="section-container">

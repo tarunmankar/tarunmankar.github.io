@@ -41,32 +41,37 @@ All mobile applications are built with an **offline-first philosophy**, lightwei
 #### 1. [Jokewala: Hindi Jokes & Chutkule](https://play.google.com/store/apps/details?id=com.jokewala.app)
 - **Package ID:** `com.jokewala.app`
 - **Features:** 45+ categories, Text-to-Speech audio laughter reader, 1-click WhatsApp status sharing, 100% offline SQLite storage, zero annoying popups.
-- **Rating:** 5.0 ⭐
+- **License:** 100% Free on Google Play
 
 #### 2. [SplitBhai: Bill Splitter & Shared Expenses](https://play.google.com/store/apps/details?id=com.splitbhai.app)
 - **Package ID:** `com.splitbhai.app`
 - **Features:** Fast group bill calculation, trip expense manager, auto-settlement debt minimizer, PDF/text summaries, no login required.
-- **Rating:** 4.9 ⭐
+- **License:** 100% Free on Google Play
 
 #### 3. [SmartEMI: Loan & EMI Calculator](https://play.google.com/store/apps/details?id=com.smartemi.app)
 - **Package ID:** `com.smartemi.app`
 - **Features:** Home/Car/Personal loan EMI planner, interactive amortization charts, loan comparison tool, prepayment interest saver.
-- **Rating:** 4.9 ⭐
+- **License:** 100% Free on Google Play
 
 #### 4. [ReturnX: Smart Nivesh Calculator](https://play.google.com/store/apps/details?id=com.returnx.nivesh)
 - **Package ID:** `com.returnx.nivesh`
 - **Features:** Indian wealth calculator for SIP, Lumpsum Mutual Funds, SWP, FD, RD, and PPF with visual wealth gain graphs.
-- **Rating:** 4.8 ⭐
+- **License:** 100% Free on Google Play
 
 #### 5. [TM Player: HD Offline Music Player](https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer)
 - **Package ID:** `com.tarunmankar.mediaplayer`
 - **Features:** Studio 10-band equalizer, 3D bass boost, lossless FLAC/WAV/MP3 playback, synchronized folder scan, 100% offline & private.
-- **Rating:** 4.8 ⭐
+- **License:** 100% Free on Google Play
 
 #### 6. [Tarun Music: Cinematic BGM Streaming](https://play.google.com/store/apps/details?id=com.tarunmusic.app)
 - **Package ID:** `com.tarunmusic.app`
 - **Features:** Stream atmospheric film scores, high-impact trailer tracks, ambient background audio crafted for content creators and filmmakers.
-- **Rating:** 4.8 ⭐
+- **License:** 100% Free on Google Play
+
+#### 7. [CleanSweep: Storage Cleaner](https://play.google.com/store/apps/details?id=com.tarunmankar.cleansweep)
+- **Package ID:** `com.tarunmankar.cleansweep`
+- **Features:** Native StatFs cache & junk analyzer, empty directory cleaner, duplicate media sweeper with 100% on-device privacy guarantee.
+- **License:** 100% Free on Google Play
 
 ---
 

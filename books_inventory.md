@@ -5,7 +5,8 @@ This file tracks all published audiobooks and books by Tarun Mankar across Eleve
 ## Author Profiles & Sync Source
 - **ElevenReader Author Profile**: [Tarun Mankar Audiobooks](https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un)
 - **Google Play Developer Account**: [Tarun Mankar Play Store](https://play.google.com/store/apps/dev?id=5447961862962854741)
-- **Amazon Author / E-Books**: [Amazon India Store](https://www.amazon.in)
+- **Amazon KDP Author Profile (US)**: [Tarun Mankar Amazon Author Central](https://www.amazon.com/stores/Tarun-Mankar/author/B0BTBLH2SN)
+- **Amazon KDP Author Profile (India)**: [Tarun Mankar Amazon India](https://www.amazon.in/stores/Tarun-Mankar/author/B0BTBLH2SN)
 
 > **Important AI Agent Rule**: Whenever the user asks to check or update new books or apps without providing direct links, **always query these profile URLs directly**.
 
@@ -33,13 +34,13 @@ This file tracks all published audiobooks and books by Tarun Mankar across Eleve
 
 ---
 
-## Published E-Books on Amazon
+## 🏆 Top 3 Flagship Books (Kindle eBook, Google Play & ElevenReader)
 
-| Book Title | Amazon Link | Description | Language |
+| Book Title | Amazon Kindle eBook | Google Play Books (eBook) | ElevenReader (Audiobook) |
 | :--- | :--- | :--- | :--- |
-| **इंस्टाग्राम मास्टरगाइड 2025** | [Amazon](https://amzn.in/d/0fCMNIRg) | AI की मदद से वायरल कंटेंट बनाकर पैसे कमाने की A-Z गाइड। | Hindi |
-| **51 Online Earning Ideas** | [Amazon](https://amzn.in/d/06RBmMwB) | Explore fifty-one proven strategies and ideas to generate income online effectively. | English |
-| **Earn Money from Instagram** | [Amazon](https://amzn.in/d/0er1Gn8a) | A complete A to Z tutorial on building your brand and monetizing your Instagram presence. | English |
+| **Stop Spiraling** | [Kindle (ASIN: B0HN23T4GD)](https://www.amazon.com/dp/B0HN23T4GD) | [Google Play Books](https://play.google.com/store/books/details/Tarun_Mankar_Stop_Spiraling?id=QvkZEgAAQBAJ) | [ElevenReader](https://elevenreader.io/audiobooks/stop-spiraling-audiobook/upo1o3x59kDS52xOIg6B) |
+| **Somatic Pacing** | [Kindle (ASIN: B0HN53MBXP)](https://www.amazon.com/dp/B0HN53MBXP) | [Google Play Books](https://play.google.com/store/books/details/Tarun_Mankar_Somatic_Pacing?id=xXcbEgAAQBAJ) | [ElevenReader](https://elevenreader.io/audiobooks/somatic-pacing-audiobook/oh8YwXf7nPdM42c4amjG) |
+| **Healing The Scarcity Mindset** | [Kindle (ASIN: B0HNJVFK7S)](https://www.amazon.com/dp/B0HNJVFK7S) | [Google Play Books](https://play.google.com/store/books/details/Tarun_Mankar_Healing_The_Scarcity_Mindset?id=NZcbEgAAQBAJ) | [ElevenReader](https://elevenreader.io/audiobooks/healing-the-scarcity-mindset-audiobook/gbsUy9RuUMREED5fuFTb) |
 
 ---
 *Maintained by Antigravity AI*

@@ -94,18 +94,19 @@ Listen to original orchestral themes, cinematic background music, and electronic
 - **Spotify:** [Tarun Music on Spotify](https://open.spotify.com/artist/70FV2z16ZGCIkiThvqYJVe)
 - **Apple Music:** [Tarun Music on Apple Music](https://music.apple.com/in/artist/tarun-music/1887960964)
 - **ElevenLabs Creator:** [Tarun Mankar BGM on ElevenLabs](https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6)
-- **YouTube Channel:** [@tarun_mankar on YouTube](https://www.youtube.com/@tarun_mankar)
 
 ---
 
-## 📚 Published Audiobooks
+## 📚 Published Books & Audiobooks
 
-Official narrator and author audiobooks published on ElevenReader:
+Official author storefronts and audiobooks published on Amazon KDP, Google Play, and ElevenReader:
 
-- **Author Profile:** [Tarun Mankar Audiobooks on ElevenReader](https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un)
-- **Featured Titles:**
-  - *The Braced Body* (Latest 2026)
-  - *The Social Hangover*
+- **Amazon KDP Author Profile:** [Tarun Mankar on Amazon Author Central](https://www.amazon.com/stores/Tarun-Mankar/author/B0BTBLH2SN)
+- **ElevenReader Author Profile:** [Tarun Mankar Audiobooks on ElevenReader](https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un)
+- **Top 3 Flagship Books:**
+  - *Stop Spiraling* — [Kindle](https://www.amazon.com/dp/B0HN23T4GD) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Stop_Spiraling?id=QvkZEgAAQBAJ) · [ElevenReader](https://elevenreader.io/audiobooks/stop-spiraling-audiobook/upo1o3x59kDS52xOIg6B)
+  - *Somatic Pacing* — [Kindle](https://www.amazon.com/dp/B0HN53MBXP) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Somatic_Pacing?id=xXcbEgAAQBAJ) · [ElevenReader](https://elevenreader.io/audiobooks/somatic-pacing-audiobook/oh8YwXf7nPdM42c4amjG)
+  - *Healing The Scarcity Mindset* — [Kindle](https://www.amazon.com/dp/B0HNJVFK7S) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Healing_The_Scarcity_Mindset?id=NZcbEgAAQBAJ) · [ElevenReader](https://elevenreader.io/audiobooks/healing-the-scarcity-mindset-audiobook/gbsUy9RuUMREED5fuFTb)
   - *The Courage to Disappoint*
   - *The Subtle Art of Not Giving a F\*ck*
   - *Deep Work*

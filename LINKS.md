@@ -46,23 +46,24 @@ A complete, centralized reference of all live links, Google Play Store app listi
 | **Spotify** | https://open.spotify.com/artist/70FV2z16ZGCIkiThvqYJVe |
 | **Apple Music** | https://music.apple.com/in/artist/tarun-music/1887960964 |
 | **ElevenLabs Music** | https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6 |
-| **YouTube Channel** | https://www.youtube.com/@tarun_mankar |
 
 ---
 
-## 📚 Audiobook Profiles
+## 📚 Author Profiles & Flagship Books
 
-| Title / Profile | URL |
+| Author Profile | URL |
 | :--- | :--- |
+| **Amazon KDP Author Profile (US)** | https://www.amazon.com/stores/Tarun-Mankar/author/B0BTBLH2SN |
+| **Amazon KDP Author Profile (India)** | https://www.amazon.in/stores/Tarun-Mankar/author/B0BTBLH2SN |
 | **ElevenReader Author Profile** | https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un |
-| **The Braced Body** | https://elevenreader.io/audiobooks/the-braced-body-audiobook/JmIsSXo9af01O77XRBG8 |
-| **The Social Hangover** | https://elevenreader.io/audiobooks/the-social-hangover-audiobook/Isl2ldQ1r3KtFN6hTTpu |
-| **The Courage to Disappoint** | https://elevenreader.io/audiobooks/the-courage-to-disappoint-audiobook/FMq4yPQj8BY1CcSaafeA |
-| **The Subtle Art of Not Giving a F\*ck** | https://elevenreader.io/audiobooks/the-subtle-art-of-not-giving-a-f*ck-audiobook/hQn5wQhD9sBfvj51g37o |
-| **Deep Work** | https://elevenreader.io/audiobooks/deep-work-audiobook/iK2aK4V3s11J16F082Wq |
-| **How to Talk to Anyone** | https://elevenreader.io/audiobooks/how-to-talk-to-anyone-audiobook/g0rP9kY2aQ2M5kY901eE |
-| **Same as Ever** | https://elevenreader.io/audiobooks/same-as-ever-audiobook/f4L0aM4E9f1wX44M02tY |
-| **Psychology of Money** | https://elevenreader.io/audiobooks/the-psychology-of-money-audiobook/k8G3s1eL4M0eW22S55tZ |
+
+### Top 3 Flagship Books (Kindle eBook, Google Play & ElevenReader)
+
+| Book Title | Amazon Kindle eBook | Google Play Books (eBook) | ElevenReader (Audiobook) |
+| :--- | :--- | :--- | :--- |
+| **Stop Spiraling** | [Amazon Kindle](https://www.amazon.com/dp/B0HN23T4GD) | [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Stop_Spiraling?id=QvkZEgAAQBAJ) | [ElevenReader](https://elevenreader.io/audiobooks/stop-spiraling-audiobook/upo1o3x59kDS52xOIg6B) |
+| **Somatic Pacing** | [Amazon Kindle](https://www.amazon.com/dp/B0HN53MBXP) | [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Somatic_Pacing?id=xXcbEgAAQBAJ) | [ElevenReader](https://elevenreader.io/audiobooks/somatic-pacing-audiobook/oh8YwXf7nPdM42c4amjG) |
+| **Healing The Scarcity Mindset** | [Amazon Kindle](https://www.amazon.com/dp/B0HNJVFK7S) | [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Healing_The_Scarcity_Mindset?id=NZcbEgAAQBAJ) | [ElevenReader](https://elevenreader.io/audiobooks/healing-the-scarcity-mindset-audiobook/gbsUy9RuUMREED5fuFTb) |
 
 ---
 

@@ -35,6 +35,11 @@ A complete, centralized reference of all live links, Google Play Store app listi
 | :--- | :--- | :--- |
 | **Tarun Music Official** | https://tarunmusic.co.in/ | Film scores, commercial sync licensing & creator audio |
 | **CalcifyHub** | https://calcifyhub.in/ | Suite of online calculation tools |
+| **AI Gyani** | https://aigyani.in/ | Educational blog on Artificial Intelligence & Machine Learning |
+| **Jordar Khabar** | https://www.jordarkhabar.in/ | Hindi news portal — breaking news, local & trending stories |
+| **Somatic Library** | https://www.somatic-library.com/ | Mind-body wellness platform with guided somatic practices & audio lessons |
+| **Gen-AI Orchestrator** | https://aiorchestrator.xyz/ | AI startup blueprints & software development roadmaps |
+| **Wings Telecom** | https://wings-telecom.com/ | Integrated telecom & solar energy solutions |
 | **MPPCHS Guide** | https://mppchs.in/ | Employee health scheme guide portal & hospital locator |
 
 ---
@@ -76,4 +81,4 @@ A complete, centralized reference of all live links, Google Play Store app listi
 | **robots.txt** | https://tarun-mankar.web.app/robots.txt | Search crawler instructions |
 
 ---
-*Updated on: October 08, 2026*
+*Updated on: October 31, 2026*

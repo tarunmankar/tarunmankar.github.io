@@ -38,6 +38,7 @@ A complete, centralized reference of all live links, Google Play Store app listi
 | **AI Gyani** | https://aigyani.in/ | Educational blog on Artificial Intelligence & Machine Learning |
 | **Jordar Khabar** | https://www.jordarkhabar.in/ | Hindi news portal — breaking news, local & trending stories |
 | **Somatic Library** | https://www.somatic-library.com/ | Mind-body wellness platform with guided somatic practices & audio lessons |
+| **Sarkari Updates** | https://www.sarkaariupdates.in/ | Government job notifications — Sarkari Naukri alerts, admit cards, results & exam updates |
 | **Gen-AI Orchestrator** | https://aiorchestrator.xyz/ | AI startup blueprints & software development roadmaps |
 | **Wings Telecom** | https://wings-telecom.com/ | Integrated telecom & solar energy solutions |
 | **MPPCHS Guide** | https://mppchs.in/ | Employee health scheme guide portal & hospital locator |

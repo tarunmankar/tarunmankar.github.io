@@ -67,6 +67,7 @@ I'm an independent creator who uses **Artificial Intelligence** as a core tool �
 | 📚 | [**AI Gyani**](https://aigyani.in/) | AI & Machine Learning educational blog for Hindi-speaking audiences |
 | 🧭 | [**Gen-AI Orchestrator**](https://aiorchestrator.xyz/) | 50+ niche AI startup blueprints & software dev roadmaps for builders |
 | 🧮 | [**CalcifyHub**](https://calcifyhub.in/) | Suite of smart calculators — finance, health, math & more |
+| 🏛️ | [**Sarkari Updates**](https://www.sarkaariupdates.in/) | Government job notifications portal — Sarkari Naukri alerts, admit cards, results & exam updates for Indian job seekers |
 | 🔌 | [**Wings Telecom**](https://wings-telecom.com/) | Enterprise site for a telecom & solar energy solutions company |
 
 ---

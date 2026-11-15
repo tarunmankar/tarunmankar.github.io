@@ -28,7 +28,7 @@ Rather than treating AI as an afterthought, I use AI as an integral force multip
 🌐  Web Ecosystem     →  Creator of 9+ live platforms (News, Health, Govt Alerts, Fintech)
 📱  Mobile Apps       →  Published 6+ Android utility & entertainment apps on Google Play
 🎵  Tarun Music       →  Founder & Composer — 646+ licensed cinematic & commercial tracks
-📖  Author & Narrator →  AI-narrated audiobooks & mindset literature on ElevenReader & Amazon
+📖  Author & Narrator →  AI-narrated audiobooks & mindset literature on ElevenReader & Somatic Library
 🎬  AI Video Studio   →  Documentaries, concept trailers, and visual storytelling on YouTube
 ⚡  Core Philosophy   →  "I don't just write code — I build, launch, and scale complete products."
 ```
@@ -100,11 +100,11 @@ Rather than treating AI as an afterthought, I use AI as an integral force multip
 
 | Title | Core Subject | Available On |
 |:--|:--|:--:|
-| 🧠 **Stop Spiraling** | Breaking obsessive overthinking loops & regulating anxious cognitive spirals | [ElevenReader](https://elevenreader.io/audiobooks/stop-spiraling-audiobook/upo1o3x59kDS52xOIg6B) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Stop_Spiraling?id=QvkZEgAAQBAJ) · [Amazon](https://www.amazon.com/dp/B0HN23T4GD) |
-| 🌿 **Somatic Pacing** | Body-first nervous system regulation, burnout prevention & energy management | [ElevenReader](https://elevenreader.io/audiobooks/somatic-pacing-audiobook/oh8YwXf7nPdM42c4amjG) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Somatic_Pacing?id=xXcbEgAAQBAJ) · [Amazon](https://www.amazon.com/dp/B0HN53MBXP) |
-| 💎 **Healing The Scarcity Mindset** | Overcoming financial scarcity anxiety & rewiring psychological abundance | [ElevenReader](https://elevenreader.io/audiobooks/healing-the-scarcity-mindset-audiobook/gbsUy9RuUMREED5fuFTb) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Healing_The_Scarcity_Mindset?id=NZcbEgAAQBAJ) · [Amazon](https://www.amazon.com/dp/B0HNJVFK7S) |
+| 🧠 **Stop Spiraling** | Breaking obsessive overthinking loops & regulating anxious cognitive spirals | [ElevenReader](https://elevenreader.io/audiobooks/stop-spiraling-audiobook/upo1o3x59kDS52xOIg6B) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Stop_Spiraling?id=QvkZEgAAQBAJ) · [Somatic Library](https://www.somatic-library.com/) |
+| 🌿 **Somatic Pacing** | Body-first nervous system regulation, burnout prevention & energy management | [ElevenReader](https://elevenreader.io/audiobooks/somatic-pacing-audiobook/oh8YwXf7nPdM42c4amjG) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Somatic_Pacing?id=xXcbEgAAQBAJ) · [Somatic Library](https://www.somatic-library.com/) |
+| 💎 **Healing The Scarcity Mindset** | Overcoming financial scarcity anxiety & rewiring psychological abundance | [ElevenReader](https://elevenreader.io/audiobooks/healing-the-scarcity-mindset-audiobook/gbsUy9RuUMREED5fuFTb) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Healing_The_Scarcity_Mindset?id=NZcbEgAAQBAJ) · [Somatic Library](https://www.somatic-library.com/) |
 
-📚 **Author Profiles:** [ElevenReader Profile](https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un) &nbsp;·&nbsp; [Amazon Author Central](https://www.amazon.com/stores/Tarun-Mankar/author/B0BTBLH2SN)
+📚 **Author & Wellness Hub:** [ElevenReader Profile](https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un) &nbsp;·&nbsp; [Somatic Library Platform](https://www.somatic-library.com/)
 
 ---
 

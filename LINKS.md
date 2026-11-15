@@ -51,6 +51,7 @@ A complete, centralized reference of all live links, Google Play Store app listi
 | :--- | :--- | :--- |
 | **Spotify** | https://open.spotify.com/artist/70FV2z16ZGCIkiThvqYJVe | Original AI artist songs & tracks |
 | **Apple Music** | https://music.apple.com/in/artist/tarun-music/1887960964 | Original AI artist songs & tracks |
+| **YouTube (Tarun AI Creation)** | https://www.youtube.com/@tarun_ai11 | AI vlogs, stories & visual media channel |
 | **ElevenLabs Music** | https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6 | Commercial BGM & cinematic sync licensing |
 
 ---

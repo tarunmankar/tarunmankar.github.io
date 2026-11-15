@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://tarunmankar.github.io"><img src="https://img.shields.io/badge/🌐 Portfolio-tarunmankar.github.io-2E9EF7?style=for-the-badge" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/tarun-mankar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
-  <a href="https://www.youtube.com/@tarun_mankar"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>&nbsp;
+  <a href="https://www.youtube.com/@tarun_ai11"><img src="https://img.shields.io/badge/YouTube-Tarun%20AI%20Creation-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>&nbsp;
   <a href="https://play.google.com/store/apps/dev?id=5447961862962854741"><img src="https://img.shields.io/badge/Google%20Play-01875F?style=for-the-badge&logo=google-play&logoColor=white" /></a>&nbsp;
   <a href="https://www.tarunmusic.co.in"><img src="https://img.shields.io/badge/🎵 Tarun Music-111827?style=for-the-badge" /></a>
 </p>
@@ -29,7 +29,7 @@ Rather than treating AI as an afterthought, I use AI as an integral force multip
 📱  Mobile Apps       →  Published 6+ Android utility & entertainment apps on Google Play
 🎵  Tarun Music       →  Founder & Composer — 646+ licensed cinematic & commercial tracks
 📖  Author & Narrator →  Mindset & somatic health literature on Somatic Library
-🎬  AI Video Studio   →  Documentaries, concept trailers, and visual storytelling on YouTube
+🎬  AI Video Studio   →  Tarun AI Creation (@tarun_ai11) — AI vlogs, stories & visual media
 ⚡  Core Philosophy   →  "I don't just write code — I build, launch, and scale complete products."
 ```
 
@@ -134,11 +134,11 @@ Beyond commercial scores, I also compose and release original AI-generated songs
 
 ---
 
-## 🎬 AI Video Creations
+## 🎬 Tarun AI Creation — YouTube Channel
 
-AI-driven cinematic visual storytelling on [YouTube (@tarun_mankar)](https://www.youtube.com/@tarun_mankar):
+AI visual storytelling, AI vlogs, and cinematic short films on [YouTube (@tarun_ai11)](https://www.youtube.com/@tarun_ai11):
 
-> 🔥 **Notable Projects:** *Mumbai Ka Don* · *The Lost Temple of Naga* · *Bhopal Gas Tragedy 1984* · *Kedarnath Disaster 2013* · Mythology short films · Horror trailers
+> 🎥 **Themes:** AI Vlogs · Visual Storytelling · Mythology & Horror Tales · Concept Trailers & Short Documentaries
 
 ---
 

@@ -76,9 +76,56 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Fallback image handling
 const profileImg = document.getElementById('profile-img');
-profileImg.addEventListener('error', function() {
-    // If the image fails to load, use a placeholder or keep trying profile.webp
-    this.style.display = 'none'; // Better to hide or use a CSS placeholder
+if (profileImg) {
+    profileImg.addEventListener('error', function() {
+        this.style.display = 'none';
+    });
+}
+
+// Initialize AOS (Animate on Scroll)
+document.addEventListener('DOMContentLoaded', () => {
+    if (typeof AOS !== 'undefined') {
+        AOS.init({
+            duration: 700,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 60
+        });
+    }
+
+    // Number Counter Animation
+    const counters = document.querySelectorAll('.counter');
+    if (counters.length > 0) {
+        const speed = 120; // lower is slower
+
+        const runCounter = (counter) => {
+            const target = +counter.getAttribute('data-target');
+            let count = 0;
+            const inc = Math.max(1, Math.ceil(target / speed));
+
+            const updateCount = () => {
+                count += inc;
+                if (count < target) {
+                    counter.innerText = count;
+                    setTimeout(updateCount, 25);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+            updateCount();
+        };
+
+        const counterObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    runCounter(entry.target);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        counters.forEach(counter => counterObserver.observe(counter));
+    }
 });
 
 // Smooth scrolling for anchor links to prevent '#' in URL

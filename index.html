@@ -68,6 +68,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Animate on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 <body>
     <!-- Background Animation Elements -->
@@ -98,38 +100,77 @@
         <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="hero-content">
-                <h2 class="greeting">Hello, I'm</h2>
-                <h1 class="name">Tarun</h1>
-                <h3 class="role">Gen AI <span class="typewriter"></span></h3>
-                <p class="hero-desc">I harness the power of Artificial Intelligence to create next-generation applications, stunning websites, engaging videos, compelling ads, beautiful images, and immersive music.</p>
-                <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="mailto:tarunmankar@gmail.com" class="btn btn-secondary">Contact Me</a>
+                <div class="hero-badge" data-aos="fade-down" data-aos-duration="600">
+                    <span class="badge-dot"></span> Available for Freelance Projects
+                </div>
+                <h2 class="greeting" data-aos="fade-up" data-aos-delay="100">Hello, I'm</h2>
+                <h1 class="name" data-aos="fade-up" data-aos-delay="150">Tarun Mankar</h1>
+                <h3 class="role" data-aos="fade-up" data-aos-delay="200">Gen AI <span class="typewriter"></span></h3>
+                <p class="hero-desc" data-aos="fade-up" data-aos-delay="250">I harness the power of Artificial Intelligence to create next-generation apps, websites, books, videos, and music — building at the edge of what's possible.</p>
+                <div class="hero-quick-stats" data-aos="fade-up" data-aos-delay="300">
+                    <div class="hqs-item"><span class="hqs-num">9+</span><span class="hqs-label">Live Platforms</span></div>
+                    <div class="hqs-sep"></div>
+                    <div class="hqs-item"><span class="hqs-num">7+</span><span class="hqs-label">Android Apps</span></div>
+                    <div class="hqs-sep"></div>
+                    <div class="hqs-item"><span class="hqs-num">646+</span><span class="hqs-label">Music Tracks</span></div>
+                    <div class="hqs-sep"></div>
+                    <div class="hqs-item"><span class="hqs-num">3</span><span class="hqs-label">Books Published</span></div>
+                </div>
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="350">
+                    <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View My Work</a>
+                    <a href="mailto:tarunmankar@gmail.com" class="btn btn-secondary"><i class="fas fa-envelope"></i> Hire Me</a>
+                </div>
+                <div class="hero-tech-stack" data-aos="fade-up" data-aos-delay="400">
+                    <span class="tech-pill">🤖 Generative AI</span>
+                    <span class="tech-pill">📱 Android</span>
+                    <span class="tech-pill">🌐 Web Dev</span>
+                    <span class="tech-pill">🎵 AI Music</span>
+                    <span class="tech-pill">📖 Author</span>
                 </div>
             </div>
-            <div class="hero-image">
+            <div class="hero-image" data-aos="zoom-in" data-aos-delay="200">
                 <div class="image-wrapper glass-panel">
                     <img src="profile.webp" alt="Tarun Mankar" id="profile-img" loading="eager" fetchpriority="high" decoding="async">
                     <div class="glow-ring"></div>
+                </div>
+                <div class="hero-floating-cards">
+                    <div class="float-card fc-top glass-panel">
+                        <i class="fas fa-star" style="color:#fbbf24;"></i>
+                        <span>AI Creator</span>
+                    </div>
+                    <div class="float-card fc-bottom glass-panel">
+                        <i class="fab fa-google-play" style="color:#01875f;"></i>
+                        <span>7+ Apps</span>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- About Tarun Mankar Section -->
         <section id="about" class="about-me-section">
-            <div class="section-header">
+            <div class="section-header" data-aos="fade-up">
                 <h2>About Tarun Mankar</h2>
                 <div class="divider"></div>
                 <p class="section-subtitle">Developer, Published Author, and AI Content Architect building at the edge of technology.</p>
             </div>
             
             <div class="about-grid">
-                <div class="about-card glass-panel main-bio">
+                <div class="about-card glass-panel main-bio" data-aos="fade-right" data-aos-delay="100">
                     <div>
                         <div class="bio-badge"><i class="fas fa-sparkles"></i> The Vision &amp; Journey</div>
                         <h3>Engineering Next-Gen Apps &amp; Transformative Ideas</h3>
                         <p>I'm <strong>Tarun Mankar</strong>, an independent software developer, published author, and digital creator based in India. My work centers on the intersection of bleeding-edge <strong>Generative AI</strong>, high-utility <strong>Android applications</strong>, and deeply human psychological &amp; somatic literature.</p>
                         <p>I build autonomous, modern software solutions that solve everyday problems — from intelligent finance calculation tools (<em>SmartEMI</em>, <em>ReturnX</em>) to viral comedy platforms (<em>Jokewala</em>) and offline media systems (<em>TM Player</em>, <em>CleanSweep</em>). In parallel, I research and author literature designed to regulate the human nervous system, conquer anxiety, and unlock unshakable personal focus.</p>
+                        <div class="skills-row">
+                            <span class="skill-tag"><i class="fas fa-robot"></i> Prompt Engineering</span>
+                            <span class="skill-tag"><i class="fab fa-android"></i> Android Dev</span>
+                            <span class="skill-tag"><i class="fas fa-code"></i> HTML/CSS/JS</span>
+                            <span class="skill-tag"><i class="fas fa-brain"></i> Gen AI Workflows</span>
+                            <span class="skill-tag"><i class="fas fa-music"></i> AI Music</span>
+                            <span class="skill-tag"><i class="fas fa-pen-nib"></i> Author</span>
+                            <span class="skill-tag"><i class="fas fa-search"></i> SEO</span>
+                            <span class="skill-tag"><i class="fas fa-fire"></i> Firebase</span>
+                        </div>
                     </div>
                     <div class="about-stats-row">
                         <div class="stat-item">
@@ -151,7 +192,7 @@
                     </div>
                 </div>
 
-                <div class="about-pillars">
+                <div class="about-pillars" data-aos="fade-left" data-aos-delay="150">
                     <div class="pillar-card glass-panel">
                         <div class="pillar-icon" style="background: rgba(99, 102, 241, 0.15); color: #818cf8;"><i class="fab fa-google-play"></i></div>
                         <div>
@@ -184,29 +225,66 @@
             </div>
         </section>
 
+        <!-- ✨ Animated Stats Banner -->
+        <div class="stats-banner-full" data-aos="zoom-in" data-aos-duration="800">
+            <div class="stats-banner-inner">
+                <div class="stats-banner-item">
+                    <i class="fas fa-globe"></i>
+                    <div>
+                        <div class="sbi-num-wrap"><span class="sbi-num counter" data-target="9">0</span><span class="sbi-plus">+</span></div>
+                        <span class="sbi-label">Live Web Platforms</span>
+                    </div>
+                </div>
+                <div class="stats-banner-divider"></div>
+                <div class="stats-banner-item">
+                    <i class="fab fa-android"></i>
+                    <div>
+                        <div class="sbi-num-wrap"><span class="sbi-num counter" data-target="7">0</span><span class="sbi-plus">+</span></div>
+                        <span class="sbi-label">Android Apps</span>
+                    </div>
+                </div>
+                <div class="stats-banner-divider"></div>
+                <div class="stats-banner-item">
+                    <i class="fas fa-music"></i>
+                    <div>
+                        <div class="sbi-num-wrap"><span class="sbi-num counter" data-target="646">0</span><span class="sbi-plus">+</span></div>
+                        <span class="sbi-label">Music Tracks</span>
+                    </div>
+                </div>
+                <div class="stats-banner-divider"></div>
+                <div class="stats-banner-item">
+                    <i class="fas fa-book"></i>
+                    <div>
+                        <div class="sbi-num-wrap"><span class="sbi-num counter" data-target="15">0</span><span class="sbi-plus">+</span></div>
+                        <span class="sbi-label">Books Published</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Services / What I Create with AI Section -->
         <section id="services" class="services">
-            <div class="section-header">
+            <div class="section-header" data-aos="fade-up">
                 <h2>What I Create with AI</h2>
                 <div class="divider"></div>
             </div>
             <div class="services-grid">
-                <div class="service-card glass-panel">
+                <div class="service-card glass-panel" data-aos="fade-up" data-aos-delay="50">
                     <i class="fas fa-mobile-alt service-icon"></i>
                     <h3>Apps &amp; Websites</h3>
                     <p>Building smart, responsive, and dynamic web and mobile applications powered by AI.</p>
                 </div>
-                <div class="service-card glass-panel">
+                <div class="service-card glass-panel" data-aos="fade-up" data-aos-delay="100">
                     <i class="fas fa-book-bookmark service-icon"></i>
                     <h3>Books &amp; Audiobooks</h3>
                     <p>Researching, writing, and narrating transformational somatic and psychology literature.</p>
                 </div>
-                <div class="service-card glass-panel">
+                <div class="service-card glass-panel" data-aos="fade-up" data-aos-delay="150">
                     <i class="fas fa-image service-icon"></i>
                     <h3>Images &amp; Art</h3>
                     <p>Creating stunning visuals, graphics, and artwork with state-of-the-art AI models.</p>
                 </div>
-                <div class="service-card glass-panel">
+                <div class="service-card glass-panel" data-aos="fade-up" data-aos-delay="200">
                     <i class="fas fa-music service-icon"></i>
                     <h3>Music &amp; BGM</h3>
                     <p>Composing original music tracks and background scores utilizing advanced AI audio tools.</p>
@@ -459,9 +537,14 @@
             </div>
             <div class="projects-grid">
                 <!-- Tarun Music -->
-                <a href="https://tarunmusic.co.in/" target="_blank" class="project-card glass-panel highlight-card">
+                <a href="https://tarunmusic.co.in/" target="_blank" class="project-card glass-panel highlight-card" data-aos="fade-up" data-aos-delay="50">
                     <div class="project-content">
                         <i class="fas fa-compact-disc project-icon"></i>
+                        <div class="project-tags">
+                            <span class="ptag">Audio Production</span>
+                            <span class="ptag">Sync Licensing</span>
+                            <span class="ptag">BGM</span>
+                        </div>
                         <h3>Tarun Music</h3>
                         <p>Premium cinematic background scores, trailer music & custom compositions. Licensing for creators, brands & filmmakers.</p>
                         <span class="project-link">Visit Site <i class="fas fa-arrow-right"></i></span>
@@ -469,9 +552,14 @@
                 </a>
 
                 <!-- CalcifyHub -->
-                <a href="https://calcifyhub.in/" target="_blank" class="project-card glass-panel">
+                <a href="https://calcifyhub.in/" target="_blank" class="project-card glass-panel" data-aos="fade-up" data-aos-delay="100">
                     <div class="project-content">
                         <i class="fas fa-calculator project-icon"></i>
+                        <div class="project-tags">
+                            <span class="ptag">Web App</span>
+                            <span class="ptag">Financial Tools</span>
+                            <span class="ptag">Calculators</span>
+                        </div>
                         <h3>CalcifyHub</h3>
                         <p>A comprehensive web application offering various calculation tools.</p>
                         <span class="project-link">Visit Site <i class="fas fa-arrow-right"></i></span>
@@ -479,9 +567,14 @@
                 </a>
                 
                 <!-- AI Gyani -->
-                <a href="https://aigyani.in/" target="_blank" class="project-card glass-panel">
+                <a href="https://aigyani.in/" target="_blank" class="project-card glass-panel" data-aos="fade-up" data-aos-delay="150">
                     <div class="project-content">
                         <i class="fas fa-brain project-icon"></i>
+                        <div class="project-tags">
+                            <span class="ptag">EdTech</span>
+                            <span class="ptag">Gen AI</span>
+                            <span class="ptag">Machine Learning</span>
+                        </div>
                         <h3>AI Gyani</h3>
                         <p>An educational platform and blog dedicated to Artificial Intelligence and Machine Learning.</p>
                         <span class="project-link">Visit Site <i class="fas fa-arrow-right"></i></span>
@@ -489,9 +582,14 @@
                 </a>
 
                 <!-- Jordar Khabar -->
-                <a href="https://www.jordarkhabar.in/" target="_blank" class="project-card glass-panel">
+                <a href="https://www.jordarkhabar.in/" target="_blank" class="project-card glass-panel" data-aos="fade-up" data-aos-delay="200">
                     <div class="project-content">
                         <i class="fas fa-newspaper project-icon"></i>
+                        <div class="project-tags">
+                            <span class="ptag">News Portal</span>
+                            <span class="ptag">SEO Media</span>
+                            <span class="ptag">Hindi News</span>
+                        </div>
                         <h3>Jordar Khabar</h3>
                         <p>Hindi news portal delivering breaking news, local stories, and trending updates from across India.</p>
                         <span class="project-link">Visit Site <i class="fas fa-arrow-right"></i></span>
@@ -499,9 +597,14 @@
                 </a>
 
                 <!-- Somatic Library -->
-                <a href="https://www.somatic-library.com/" target="_blank" class="project-card glass-panel">
+                <a href="https://www.somatic-library.com/" target="_blank" class="project-card glass-panel" data-aos="fade-up" data-aos-delay="250">
                     <div class="project-content">
                         <i class="fas fa-spa project-icon"></i>
+                        <div class="project-tags">
+                            <span class="ptag">Wellness Hub</span>
+                            <span class="ptag">Audio Library</span>
+                            <span class="ptag">Somatic</span>
+                        </div>
                         <h3>Somatic Library</h3>
                         <p>A mind-body wellness platform with guided somatic practices, audio/video lessons &amp; themed collections for emotional resilience.</p>
                         <span class="project-link">Visit Site <i class="fas fa-arrow-right"></i></span>
@@ -509,9 +612,14 @@
                 </a>
 
                 <!-- Sarkari Updates -->
-                <a href="https://www.sarkaariupdates.in/" target="_blank" class="project-card glass-panel">
+                <a href="https://www.sarkaariupdates.in/" target="_blank" class="project-card glass-panel" data-aos="fade-up" data-aos-delay="300">
                     <div class="project-content">
                         <i class="fas fa-landmark project-icon"></i>
+                        <div class="project-tags">
+                            <span class="ptag">Jobs Portal</span>
+                            <span class="ptag">Notifications</span>
+                            <span class="ptag">Fast Search</span>
+                        </div>
                         <h3>Sarkari Updates</h3>
                         <p>Government job notifications portal — latest Sarkari Naukri alerts, admit cards, results &amp; exam updates for Indian job seekers.</p>
                         <span class="project-link">Visit Site <i class="fas fa-arrow-right"></i></span>
@@ -519,9 +627,14 @@
                 </a>
 
                 <!-- Gen-AI Orchestrator -->
-                <a href="https://aiorchestrator.xyz/" target="_blank" class="project-card glass-panel">
+                <a href="https://aiorchestrator.xyz/" target="_blank" class="project-card glass-panel" data-aos="fade-up" data-aos-delay="350">
                     <div class="project-content">
                         <i class="fas fa-robot project-icon"></i>
+                        <div class="project-tags">
+                            <span class="ptag">AI Blueprints</span>
+                            <span class="ptag">SaaS Architecture</span>
+                            <span class="ptag">Startups</span>
+                        </div>
                         <h3>Gen-AI Orchestrator</h3>
                         <p>Master AI software development with 50+ niche blueprints and startup roadmaps.</p>
                         <span class="project-link">Visit Site <i class="fas fa-arrow-right"></i></span>
@@ -529,9 +642,14 @@
                 </a>
 
                 <!-- Wings Telecom -->
-                <a href="https://wings-telecom.com/" target="_blank" class="project-card glass-panel">
+                <a href="https://wings-telecom.com/" target="_blank" class="project-card glass-panel" data-aos="fade-up" data-aos-delay="400">
                     <div class="project-content">
                         <i class="fas fa-broadcast-tower project-icon"></i>
+                        <div class="project-tags">
+                            <span class="ptag">Enterprise</span>
+                            <span class="ptag">Solar Energy</span>
+                            <span class="ptag">Telecom</span>
+                        </div>
                         <h3>Wings Telecom</h3>
                         <p>Integrated telecom and energy solutions providing equipment installation and solar power services.</p>
                         <span class="project-link">Visit Site <i class="fas fa-arrow-right"></i></span>
@@ -539,9 +657,14 @@
                 </a>
 
                 <!-- MPPCHS Guide -->
-                <a href="https://mppchs.in/" target="_blank" class="project-card glass-panel">
+                <a href="https://mppchs.in/" target="_blank" class="project-card glass-panel" data-aos="fade-up" data-aos-delay="450">
                     <div class="project-content">
                         <i class="fas fa-heartbeat project-icon"></i>
+                        <div class="project-tags">
+                            <span class="ptag">Healthcare Portal</span>
+                            <span class="ptag">Hospital Guide</span>
+                            <span class="ptag">e-Card Claims</span>
+                        </div>
                         <h3>MPPCHS Guide</h3>
                         <p>MP Power Company Cashless Health Scheme guide portal — hospital finder, e-Card, claim process & FAQs for employees.</p>
                         <span class="project-link">Visit Site <i class="fas fa-arrow-right"></i></span>
@@ -775,6 +898,7 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

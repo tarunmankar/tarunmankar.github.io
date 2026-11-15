@@ -45,13 +45,13 @@ A complete, centralized reference of all live links, Google Play Store app listi
 
 ---
 
-## 🎵 Music Streaming Profiles
+## 🎵 Music Streaming & Audio Profiles
 
-| Platform | URL |
-| :--- | :--- |
-| **Spotify** | https://open.spotify.com/artist/70FV2z16ZGCIkiThvqYJVe |
-| **Apple Music** | https://music.apple.com/in/artist/tarun-music/1887960964 |
-| **ElevenLabs Music** | https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6 |
+| Platform | URL | Purpose |
+| :--- | :--- | :--- |
+| **Spotify** | https://open.spotify.com/artist/70FV2z16ZGCIkiThvqYJVe | Original AI artist songs & tracks |
+| **Apple Music** | https://music.apple.com/in/artist/tarun-music/1887960964 | Original AI artist songs & tracks |
+| **ElevenLabs Music** | https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6 | Commercial BGM & cinematic sync licensing |
 
 ---
 

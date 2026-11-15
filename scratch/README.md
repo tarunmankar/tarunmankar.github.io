@@ -122,7 +122,15 @@ Rather than treating AI as an afterthought, I use AI as an integral force multip
 
 As the founder and creator behind **Tarun Music**, I compose and produce commercial background scores, trailer tracks, and cinematic music for content creators, game developers, advertisers, and filmmakers worldwide.
 
-🎧 **Listen & License:** [Official Website](https://www.tarunmusic.co.in/) &nbsp;·&nbsp; [Spotify](https://open.spotify.com/artist/70FV2z16ZGCIkiThvqYJVe) &nbsp;·&nbsp; [Apple Music](https://music.apple.com/in/artist/tarun-music/1887960964) &nbsp;·&nbsp; [ElevenLabs Catalog](https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6)
+🔗 **Explore Catalog & Commercial Licensing:** [Official Website (www.tarunmusic.co.in)](https://www.tarunmusic.co.in/) &nbsp;·&nbsp; [ElevenLabs Catalog](https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6)
+
+---
+
+## 🎧 Original AI Songs & Music Streaming
+
+Beyond commercial scores, I also compose and release original AI-generated songs and artist albums directly on major streaming platforms:
+
+🎧 **Stream My AI Songs:** [Spotify Artist Profile](https://open.spotify.com/artist/70FV2z16ZGCIkiThvqYJVe) &nbsp;·&nbsp; [Apple Music Artist Profile](https://music.apple.com/in/artist/tarun-music/1887960964)
 
 ---
 

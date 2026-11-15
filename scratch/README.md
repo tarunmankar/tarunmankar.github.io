@@ -100,11 +100,11 @@ Rather than treating AI as an afterthought, I use AI as an integral force multip
 
 | Title | Core Subject | Available On |
 |:--|:--|:--:|
-| 🧠 **Stop Spiraling** | Breaking obsessive overthinking loops & regulating anxious cognitive spirals | [ElevenReader](https://elevenreader.io/audiobooks/stop-spiraling-audiobook/upo1o3x59kDS52xOIg6B) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Stop_Spiraling?id=QvkZEgAAQBAJ) · [Somatic Library](https://www.somatic-library.com/) |
-| 🌿 **Somatic Pacing** | Body-first nervous system regulation, burnout prevention & energy management | [ElevenReader](https://elevenreader.io/audiobooks/somatic-pacing-audiobook/oh8YwXf7nPdM42c4amjG) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Somatic_Pacing?id=xXcbEgAAQBAJ) · [Somatic Library](https://www.somatic-library.com/) |
-| 💎 **Healing The Scarcity Mindset** | Overcoming financial scarcity anxiety & rewiring psychological abundance | [ElevenReader](https://elevenreader.io/audiobooks/healing-the-scarcity-mindset-audiobook/gbsUy9RuUMREED5fuFTb) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Healing_The_Scarcity_Mindset?id=NZcbEgAAQBAJ) · [Somatic Library](https://www.somatic-library.com/) |
+| 🧠 **Stop Spiraling** | Breaking obsessive overthinking loops & regulating anxious cognitive spirals | [Amazon KDP](https://www.amazon.com/dp/B0HN23T4GD) · [Google Play Books](https://play.google.com/store/books/details/Tarun_Mankar_Stop_Spiraling?id=QvkZEgAAQBAJ) · [ElevenReader](https://elevenreader.io/audiobooks/stop-spiraling-audiobook/upo1o3x59kDS52xOIg6B) |
+| 🌿 **Somatic Pacing** | Body-first nervous system regulation, burnout prevention & energy management | [Amazon KDP](https://www.amazon.com/dp/B0HN53MBXP) · [Google Play Books](https://play.google.com/store/books/details/Tarun_Mankar_Somatic_Pacing?id=xXcbEgAAQBAJ) · [ElevenReader](https://elevenreader.io/audiobooks/somatic-pacing-audiobook/oh8YwXf7nPdM42c4amjG) |
+| 💎 **Healing The Scarcity Mindset** | Overcoming financial scarcity anxiety & rewiring psychological abundance | [Amazon KDP](https://www.amazon.com/dp/B0HNJVFK7S) · [Google Play Books](https://play.google.com/store/books/details/Tarun_Mankar_Healing_The_Scarcity_Mindset?id=NZcbEgAAQBAJ) · [ElevenReader](https://elevenreader.io/audiobooks/healing-the-scarcity-mindset-audiobook/gbsUy9RuUMREED5fuFTb) |
 
-📚 **Author & Wellness Hub:** [Somatic Library Platform (https://www.somatic-library.com/)](https://www.somatic-library.com/)
+📚 **More Books & Somatic Practices:** [Somatic Library (www.somatic-library.com)](https://www.somatic-library.com/)
 
 ---
 

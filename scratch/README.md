@@ -1,11 +1,11 @@
 <h1 align="center">👋 Hi, I'm Tarun Mankar</h1>
 
 <p align="center">
-  <b>Gen AI Developer &nbsp;·&nbsp; Full Stack Engineer &nbsp;·&nbsp; Audiobook Creator &nbsp;·&nbsp; Music Producer</b>
+  <b>Independent Full-Stack Developer &nbsp;·&nbsp; AI Product Builder &nbsp;·&nbsp; Founder @ Tarun Music</b>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=I+design%2C+build%2C+deploy+%26+scale+with+AI;Android+Apps+%7C+SaaS+%7C+News+%7C+Wellness+Platforms;AI+Audiobooks+%7C+Music+%7C+Video+Creator;From+Idea+to+Production+%E2%80%94+Solo." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=740&lines=I+design%2C+build%2C+deploy+%26+scale+products+with+AI;Creator+of+9%2B+Live+Web+Platforms+%26+6%2B+Play+Store+Apps;Founder+at+Tarun+Music+%E2%80%94+646%2B+Licensed+Audio+Tracks;Author+%26+Producer+of+AI-Narrated+Audiobooks;Full-Stack+Engineer+shipping+from+Idea+to+Production+Solo." alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -20,15 +20,17 @@
 
 ## 🚀 About Me
 
-I'm an independent creator who uses **Artificial Intelligence** as a core tool — not just an add-on. I build complete digital products end-to-end: from **web platforms** and **Android apps** to **AI-narrated audiobooks**, **licensed music**, and **AI video content**.
+I am an **Independent Software Developer, AI Product Builder, and Digital Creator** based in India. I bridge software engineering with state-of-the-art Generative AI to design, build, deploy, and scale complete digital products end-to-end — from conception to production.
+
+Rather than treating AI as an afterthought, I use AI as an integral force multiplier across the entire development and creative lifecycle: shipping full-stack SaaS, cross-platform mobile apps, cinematic music catalogs, and published literature solo.
 
 ```txt
-🎯  Focus       →  Full Stack Dev · Android · SaaS · AI Automation
-🎵  Music       →  Tarun Music — 346+ licensed AI cinematic tracks
-📖  Books       →  AI-narrated audiobooks on somatic health & mindset
-🎬  Videos      →  AI visual storytelling on YouTube
-🌐  Websites    →  News portals, wellness platforms, enterprise sites
-⚡  Fun Fact    →  I ship idea → production, solo, with AI as co-pilot
+🌐  Web Ecosystem     →  Creator of 9+ live platforms (News, Health, Govt Alerts, Fintech)
+📱  Mobile Apps       →  Published 6+ Android utility & entertainment apps on Google Play
+🎵  Tarun Music       →  Founder & Composer — 646+ licensed cinematic & commercial tracks
+📖  Author & Narrator →  AI-narrated audiobooks & mindset literature on ElevenReader & Amazon
+🎬  AI Video Studio   →  Documentaries, concept trailers, and visual storytelling on YouTube
+⚡  Core Philosophy   →  "I don't just write code — I build, launch, and scale complete products."
 ```
 
 ---
@@ -40,95 +42,114 @@ I'm an independent creator who uses **Artificial Intelligence** as a core tool �
 </p>
 
 <details>
-<summary>📂 Full Breakdown</summary>
+<summary><b>📂 Click to View Full Architecture & Toolkit Breakdown</b></summary>
 <br>
 
-| Layer | Tools |
+| Layer | Tools & Technologies |
 |:--|:--|
-| **Frontend** | Next.js · React · React Native · TypeScript · JavaScript · HTML5 · CSS3 · Tailwind CSS |
-| **Backend** | Node.js · Next.js API Routes · REST APIs · JWT · OAuth · Server Actions |
-| **Database** | PostgreSQL · Supabase · Firebase Firestore · Neon · SQLite |
-| **Cloud** | Vercel · Firebase Hosting · Cloudflare · AWS S3 · GitHub Pages |
-| **AI Tools** | AntiGravity IDE · Cursor AI · ChatGPT · Claude · Gemini · ElevenLabs · Copilot |
-| **DevOps** | Git · GitHub · GitHub Actions · CI/CD · Environment Variables |
+| **Frontend** | Next.js (App Router) · React · React Native · TypeScript · JavaScript (ES6+) · Tailwind CSS · HTML5 / Modern CSS |
+| **Backend & APIs** | Node.js · Next.js Server Actions · RESTful APIs · JWT Auth · Webhooks · Serverless Functions |
+| **Databases** | PostgreSQL · Supabase · Firebase Firestore · Firebase Realtime DB · Neon DB · SQLite |
+| **Cloud & Hosting** | Vercel · Firebase Hosting · Cloudflare CDN & R2 · AWS S3 · GitHub Pages · Custom Domains & SSL |
+| **AI & Automation** | AntiGravity IDE · Cursor AI · ElevenLabs (Audio/Voice) · OpenAI · Claude · Google Gemini · Copilot |
+| **DevOps & CI/CD** | Git · GitHub Actions · Automated Deployments · Environment Configuration · Performance Optimization |
 
 </details>
 
 ---
 
-## 🌐 Web Platforms I've Built
+## 🌐 Live Web Platforms I've Built & Manage
 
-| # | Project | What it does |
-|:--:|:--|:--|
-| 🎵 | [**Tarun Music**](https://www.tarunmusic.co.in/) | Cinematic BGM & licensed AI music — 346+ tracks for creators, brands & filmmakers |
-| 📰 | [**Jordar Khabar**](https://www.jordarkhabar.in/) | Hindi news portal — breaking news, local stories & trending updates across India |
-| 🧘 | [**Somatic Library**](https://www.somatic-library.com/) | Mind-body wellness platform — guided somatic practices, audio/video lessons & emotional resilience tools |
-| 🏥 | [**MPPCHS Guide**](https://mppchs.in/) | Cashless health scheme guide for MP Power employees — hospital finder, e-Card, 76-point FAQ |
-| 📚 | [**AI Gyani**](https://aigyani.in/) | AI & Machine Learning educational blog for Hindi-speaking audiences |
-| 🧭 | [**Gen-AI Orchestrator**](https://aiorchestrator.xyz/) | 50+ niche AI startup blueprints & software dev roadmaps for builders |
-| 🧮 | [**CalcifyHub**](https://calcifyhub.in/) | Suite of smart calculators — finance, health, math & more |
-| 🏛️ | [**Sarkari Updates**](https://www.sarkaariupdates.in/) | Government job notifications portal — Sarkari Naukri alerts, admit cards, results & exam updates for Indian job seekers |
-| 🔌 | [**Wings Telecom**](https://wings-telecom.com/) | Enterprise site for a telecom & solar energy solutions company |
-
----
-
-## 📱 Android Apps on Google Play
-
-| App | Description |
-|:--|:--|
-| 💸 [**SplitBhai**](https://play.google.com/store/apps/details?id=com.splitbhai.app) | Smart bill splitter & group expense manager |
-| 🏦 [**SmartEMI**](https://play.google.com/store/apps/details?id=com.smartemi.app) | Loan EMI & interest calculator with premium UI |
-| 📊 [**ReturnX**](https://play.google.com/store/apps/details?id=com.returnx.nivesh) | Investment return calculator — SIP, FD, PPF, EMI for Indian investors |
-| 😄 [**Jokewala**](https://play.google.com/store/apps/details?id=com.jokewala.app) | Hindi jokes & comedy entertainment app |
-| 🎵 [**Tarun Music**](https://play.google.com/store/apps/details?id=com.tarunmusic.app) | Stream licensed cinematic & background music |
-| 🎧 [**TM Player**](https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer) | HD offline audio player |
-| 🧹 [**CleanSweep**](https://play.google.com/store/apps/details?id=com.tarunmankar.cleansweep) | Storage cleaner & device optimizer |
+| # | Platform | Focus & Impact | Live Link |
+|:--:|:--|:--|:--:|
+| 🎵 | **Tarun Music** | Commercial sync licensing & cinematic score catalog with 646+ tracks | [Visit Site ↗](https://www.tarunmusic.co.in/) |
+| 📰 | **Jordar Khabar** | Fast, high-traffic Hindi news portal for national and local breaking stories | [Visit Site ↗](https://www.jordarkhabar.in/) |
+| 🧘 | **Somatic Library** | Mind-body wellness portal offering guided somatic practices & nervous system tools | [Visit Site ↗](https://www.somatic-library.com/) |
+| 🏛️ | **Sarkari Updates** | Real-time government job notifications, admit cards & exam updates for job seekers | [Visit Site ↗](https://www.sarkaariupdates.in/) |
+| 🏥 | **MPPCHS Guide** | Cashless health scheme portal for MP Power employees — hospital finder & claim guides | [Visit Site ↗](https://mppchs.in/) |
+| 📚 | **AI Gyani** | Educational blog simplifying Artificial Intelligence & Machine Learning for Hindi audiences | [Visit Site ↗](https://aigyani.in/) |
+| 🧭 | **Gen-AI Orchestrator** | 50+ niche AI startup blueprints and architecture roadmaps for modern builders | [Visit Site ↗](https://aiorchestrator.xyz/) |
+| 🧮 | **CalcifyHub** | Comprehensive suite of online calculation tools for finance, health, and utilities | [Visit Site ↗](https://calcifyhub.in/) |
+| 🔌 | **Wings Telecom** | Corporate digital presence for integrated telecom and solar energy infrastructure | [Visit Site ↗](https://wings-telecom.com/) |
 
 ---
 
-## 📖 Audiobooks & E-Books
-
-> I research, write, narrate (with AI voice), and publish complete books — from wellness to personal finance.
-
-### 🎧 AI-Narrated Audiobooks *(ElevenReader)*
-
-| Book | Theme | Listen |
-|:--|:--|:--|
-| **Stop Spiraling** | Breaking anxious overthinking loops | [ElevenReader](https://elevenreader.io/audiobooks/stop-spiraling-audiobook/upo1o3x59kDS52xOIg6B) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Stop_Spiraling?id=QvkZEgAAQBAJ) · [Amazon](https://www.amazon.com/dp/B0HN23T4GD) |
-| **Somatic Pacing** | Nervous system regulation & burnout recovery | [ElevenReader](https://elevenreader.io/audiobooks/somatic-pacing-audiobook/oh8YwXf7nPdM42c4amjG) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Somatic_Pacing?id=xXcbEgAAQBAJ) · [Amazon](https://www.amazon.com/dp/B0HN53MBXP) |
-| **Healing The Scarcity Mindset** | Abundance mindset & financial healing | [ElevenReader](https://elevenreader.io/audiobooks/healing-the-scarcity-mindset-audiobook/gbsUy9RuUMREED5fuFTb) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Healing_The_Scarcity_Mindset?id=NZcbEgAAQBAJ) · [Amazon](https://www.amazon.com/dp/B0HNJVFK7S) |
-
-📚 Full author profile: [ElevenReader](https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un) · [Amazon](https://www.amazon.com/stores/Tarun-Mankar/author/B0BTBLH2SN)
-
----
-
-## 🎵 Tarun Music
+## 📱 Published Android Apps on Google Play
 
 <p align="center">
-  <img src="https://img.shields.io/badge/346%2B%20Tracks-Cinematic%20%26%20BGM-2E9EF7?style=flat-square" />
+  <a href="https://play.google.com/store/apps/dev?id=5447961862962854741">
+    <img src="https://img.shields.io/badge/Google%20Play-View%20All%20Apps-01875F?style=for-the-badge&logo=google-play&logoColor=white" />
+  </a>
+</p>
+
+| App | Description | Category | Store Link |
+|:--|:--|:--:|:--:|
+| 💸 **SplitBhai** | Group bill splitter & shared expense tracker with instant calculation | Finance / Productivity | [Get on Play Store ↗](https://play.google.com/store/apps/details?id=com.splitbhai.app) |
+| 🏦 **SmartEMI** | Elegant loan EMI calculator with amortization schedules & interest compare | Finance | [Get on Play Store ↗](https://play.google.com/store/apps/details?id=com.smartemi.app) |
+| 📊 **ReturnX** | Investment return calculator for Indian investors (SIP, EMI, FD, PPF, NPS) | Finance / Wealth | [Get on Play Store ↗](https://play.google.com/store/apps/details?id=com.returnx.nivesh) |
+| 😄 **Jokewala** | Premium Hindi comedy & entertainment app with daily trending humor | Entertainment | [Get on Play Store ↗](https://play.google.com/store/apps/details?id=com.jokewala.app) |
+| 🎵 **Tarun Music App** | Stream original cinematic soundtracks, ambient music & trailer scores | Music & Audio | [Get on Play Store ↗](https://play.google.com/store/apps/details?id=com.tarunmusic.app) |
+| 🎧 **TM Player** | High-fidelity offline audio player with advanced equalizer and playlist manager | Media Player | [Get on Play Store ↗](https://play.google.com/store/apps/details?id=com.tarunmankar.mediaplayer) |
+| 🧹 **CleanSweep** | Storage cleaner, memory analyzer & smart device optimization utility | Tools / Utilities | [Get on Play Store ↗](https://play.google.com/store/apps/details?id=com.tarunmankar.cleansweep) |
+
+---
+
+## 📖 Published Audiobooks & E-Books
+
+> I write, curate, and produce complete audiobooks using AI speech synthesis alongside published digital books on personal resilience and mindset.
+
+| Title | Core Subject | Available On |
+|:--|:--|:--:|
+| 🧠 **Stop Spiraling** | Breaking obsessive overthinking loops & regulating anxious cognitive spirals | [ElevenReader](https://elevenreader.io/audiobooks/stop-spiraling-audiobook/upo1o3x59kDS52xOIg6B) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Stop_Spiraling?id=QvkZEgAAQBAJ) · [Amazon](https://www.amazon.com/dp/B0HN23T4GD) |
+| 🌿 **Somatic Pacing** | Body-first nervous system regulation, burnout prevention & energy management | [ElevenReader](https://elevenreader.io/audiobooks/somatic-pacing-audiobook/oh8YwXf7nPdM42c4amjG) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Somatic_Pacing?id=xXcbEgAAQBAJ) · [Amazon](https://www.amazon.com/dp/B0HN53MBXP) |
+| 💎 **Healing The Scarcity Mindset** | Overcoming financial scarcity anxiety & rewiring psychological abundance | [ElevenReader](https://elevenreader.io/audiobooks/healing-the-scarcity-mindset-audiobook/gbsUy9RuUMREED5fuFTb) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Healing_The_Scarcity_Mindset?id=NZcbEgAAQBAJ) · [Amazon](https://www.amazon.com/dp/B0HNJVFK7S) |
+
+📚 **Author Profiles:** [ElevenReader Profile](https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un) &nbsp;·&nbsp; [Amazon Author Central](https://www.amazon.com/stores/Tarun-Mankar/author/B0BTBLH2SN)
+
+---
+
+## 🎵 Tarun Music — Commercial Audio Catalog
+
+<p align="center">
+  <img src="https://img.shields.io/badge/646%2B%20Tracks-Cinematic%20%26%20BGM-2E9EF7?style=flat-square" />
   &nbsp;
-  <img src="https://img.shields.io/badge/18%2B%20Genres-Available-6366F1?style=flat-square" />
+  <img src="https://img.shields.io/badge/18%2B%20Genres-Electronic%20to%20Orchestral-6366F1?style=flat-square" />
   &nbsp;
   <img src="https://img.shields.io/badge/ElevenLabs-Verified%20Creator-F97316?style=flat-square" />
   &nbsp;
-  <img src="https://img.shields.io/badge/License-Commercial%20%26%20Social-22C55E?style=flat-square" />
+  <img src="https://img.shields.io/badge/Licensing-Commercial%20%26%20Creator-22C55E?style=flat-square" />
 </p>
 
-Verified AI Music Creator on ElevenLabs. Cinematic BGM · Trailer music · Game music · Brand & Ad music.
+As the founder and creator behind **Tarun Music**, I compose and produce commercial background scores, trailer tracks, and cinematic music for content creators, game developers, advertisers, and filmmakers worldwide.
 
-🎧 [Spotify](https://open.spotify.com/artist/70FV2z16ZGCIkiThvqYJVe) &nbsp;·&nbsp; [Apple Music](https://music.apple.com/in/artist/tarun-music/1887960964) &nbsp;·&nbsp; [ElevenLabs](https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6) &nbsp;·&nbsp; [tarunmusic.co.in](https://www.tarunmusic.co.in/)
-
----
-
-## 🎬 AI Video Content
-
-AI visual storytelling on [YouTube @tarun_mankar](https://www.youtube.com/@tarun_mankar):
-
-> **Mumbai Ka Don** · **The Lost Temple of Naga** · **Bhopal Gas Tragedy 1984** · **Kedarnath Disaster 2013** · Mythology shorts · Horror stories · Concept trailers
+🎧 **Listen & License:** [Official Website](https://www.tarunmusic.co.in/) &nbsp;·&nbsp; [Spotify](https://open.spotify.com/artist/70FV2z16ZGCIkiThvqYJVe) &nbsp;·&nbsp; [Apple Music](https://music.apple.com/in/artist/tarun-music/1887960964) &nbsp;·&nbsp; [ElevenLabs Catalog](https://elevenlabs.io/app/music/explore/creator/LfAdKsiGjPdvt8Qcs1o6)
 
 ---
 
-## 📊 GitHub Stats
+## 🎬 AI Video Creations
+
+AI-driven cinematic visual storytelling on [YouTube (@tarun_mankar)](https://www.youtube.com/@tarun_mankar):
+
+> 🔥 **Notable Projects:** *Mumbai Ka Don* · *The Lost Temple of Naga* · *Bhopal Gas Tragedy 1984* · *Kedarnath Disaster 2013* · Mythology short films · Horror trailers
+
+---
+
+## 🛠 Product Development Workflow
+
+```mermaid
+graph LR
+A[💡 Idea & Research] --> B[🎨 UI/UX & Flow]
+B --> C[🤖 AI-Accelerated Dev]
+C --> D[🗄️ Database & APIs]
+D --> E[📱 Web / Mobile Build]
+E --> F[🧪 Rigorous Testing]
+F --> G[🚀 Production Deploy]
+G --> H[📈 SEO, ASO & Scale]
+```
+
+---
+
+## 📊 GitHub Analytics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=tarunmankar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="165" />
@@ -142,11 +163,14 @@ AI visual storytelling on [YouTube @tarun_mankar](https://www.youtube.com/@tarun
 
 ---
 
-## 💡 What Makes Me Different
+## 💬 Let's Build Something Together
 
-> I don't just write code — I **build complete digital products** from scratch, solo, using AI as my co-pilot.
+I'm open to freelance contracts, consulting, and building custom digital products:
+* 🌐 **Full-Stack Web Applications** (Next.js, Supabase, Cloudflare, Firebase)
+* 📱 **Mobile Apps** (Android / Cross-Platform)
+* 🤖 **Custom AI Integrations** (Voice Agents, Content Pipelines, Automated Media)
 
-Whether it's a **wellness platform**, a **Hindi news portal**, a **published audiobook**, a **licensed music catalog**, or a **production Android app** — I own the entire pipeline: idea → design → development → deployment → SEO → scale.
+📩 **Get in Touch:** [LinkedIn](https://www.linkedin.com/in/tarun-mankar/) &nbsp;·&nbsp; [Portfolio Contact](https://tarunmankar.github.io/#contact)
 
 ---
 
@@ -155,5 +179,5 @@ Whether it's a **wellness platform**, a **Hindi news portal**, a **published aud
 </p>
 
 <p align="center">
-  <sub>⭐ <a href="https://tarunmankar.github.io">tarunmankar.github.io</a> — Full Stack · Android · AI Audiobooks · Music · SaaS</sub>
+  <sub>⭐ <a href="https://tarunmankar.github.io">tarunmankar.github.io</a> — Independent Full-Stack Developer & AI Product Builder</sub>
 </p>

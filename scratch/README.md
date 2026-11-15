@@ -26,9 +26,9 @@ Rather than treating AI as an afterthought, I use AI as an integral force multip
 
 ```txt
 🌐  Web Ecosystem     →  Creator of 9+ live platforms (News, Health, Govt Alerts, Fintech)
-📱  Mobile Apps       →  Published 6+ Android utility & entertainment apps on Google Play
+📱  Mobile Apps       →  Published 7+ Android utility & entertainment apps on Google Play
 🎵  Tarun Music       →  Founder & Composer — 646+ licensed cinematic & commercial tracks
-📖  Author & Narrator →  Mindset & somatic health literature on Somatic Library
+📖  Author & Narrator →  17+ published books & audiobooks on Somatic Library
 🎬  AI Video Studio   →  Tarun AI Creation (@tarun_ai11) — AI vlogs, stories & visual media
 ⚡  Core Philosophy   →  "I don't just write code — I build, launch, and scale complete products."
 ```
@@ -96,7 +96,7 @@ Rather than treating AI as an afterthought, I use AI as an integral force multip
 
 ## 📖 Published Audiobooks & E-Books
 
-> I write, curate, and produce complete audiobooks using AI speech synthesis alongside published digital books on personal resilience and mindset.
+> Author of **17+ published books and audiobooks** on somatic healing, nervous system regulation, and abundance mindset — explore the complete collection on [Somatic Library](https://www.somatic-library.com/).
 
 | Title | Core Subject | Available On |
 |:--|:--|:--:|

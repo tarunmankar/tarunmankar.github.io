@@ -74,6 +74,16 @@ A complete, centralized reference of all live links, Google Play Store app listi
 
 ---
 
+## 💼 Social & Professional Profiles
+
+| Platform | URL | Purpose |
+| :--- | :--- | :--- |
+| **GitHub** | https://github.com/tarunmankar | Open source code, repositories & projects |
+| **LinkedIn** | https://www.linkedin.com/in/tarun-mankar/ | Professional career network & profile |
+| **YouTube (Tarun AI Creation)** | https://www.youtube.com/@tarun_ai11 | AI visual storytelling, vlogs & media channel |
+
+---
+
 ## 📄 Ad-Network Verification & Webmaster Files
 
 | File | URL | Purpose |

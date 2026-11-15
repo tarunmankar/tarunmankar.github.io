@@ -1252,6 +1252,20 @@ footer p {
     transition: var(--transition);
 }
 
+.store-somatic {
+    background: rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(16, 185, 129, 0.35);
+    color: #34d399;
+}
+
+.store-somatic:hover {
+    background: #10b981;
+    color: #fff;
+    border-color: #10b981;
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+    transform: translateY(-2px);
+}
+
 .store-amazon {
     background: rgba(255, 153, 0, 0.12);
     border: 1px solid rgba(255, 153, 0, 0.35);

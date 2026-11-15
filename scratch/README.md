@@ -28,7 +28,7 @@ Rather than treating AI as an afterthought, I use AI as an integral force multip
 🌐  Web Ecosystem     →  Creator of 9+ live platforms (News, Health, Govt Alerts, Fintech)
 📱  Mobile Apps       →  Published 6+ Android utility & entertainment apps on Google Play
 🎵  Tarun Music       →  Founder & Composer — 646+ licensed cinematic & commercial tracks
-📖  Author & Narrator →  AI-narrated audiobooks & mindset literature on ElevenReader & Somatic Library
+📖  Author & Narrator →  Mindset & somatic health literature on Somatic Library
 🎬  AI Video Studio   →  Documentaries, concept trailers, and visual storytelling on YouTube
 ⚡  Core Philosophy   →  "I don't just write code — I build, launch, and scale complete products."
 ```
@@ -104,7 +104,7 @@ Rather than treating AI as an afterthought, I use AI as an integral force multip
 | 🌿 **Somatic Pacing** | Body-first nervous system regulation, burnout prevention & energy management | [ElevenReader](https://elevenreader.io/audiobooks/somatic-pacing-audiobook/oh8YwXf7nPdM42c4amjG) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Somatic_Pacing?id=xXcbEgAAQBAJ) · [Somatic Library](https://www.somatic-library.com/) |
 | 💎 **Healing The Scarcity Mindset** | Overcoming financial scarcity anxiety & rewiring psychological abundance | [ElevenReader](https://elevenreader.io/audiobooks/healing-the-scarcity-mindset-audiobook/gbsUy9RuUMREED5fuFTb) · [Google Play](https://play.google.com/store/books/details/Tarun_Mankar_Healing_The_Scarcity_Mindset?id=NZcbEgAAQBAJ) · [Somatic Library](https://www.somatic-library.com/) |
 
-📚 **Author & Wellness Hub:** [ElevenReader Profile](https://elevenreader.io/authors/tarun-mankar-audiobooks/i0rp0wAezs9Jt1lGd2un) &nbsp;·&nbsp; [Somatic Library Platform](https://www.somatic-library.com/)
+📚 **Author & Wellness Hub:** [Somatic Library Platform (https://www.somatic-library.com/)](https://www.somatic-library.com/)
 
 ---
 
